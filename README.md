@@ -4,7 +4,7 @@ The official web client for **Orbis** — a [geo-social network](https://en.wiki
 
 It is a **thin client** — it talks to an Orbis backend over HTTP and reads on-chain state directly from Solana — so anyone can run their own branded instance and point it at their own deployment.
 
-> **Orbis Web is a read-only, public window into the network.** Its job is to let anyone — signed in or not — **view and share** the web pages of users, tribes, places, and posts, browse the live territory map, and read the [network dashboard](https://orbis.social/network). The interactive parts of Orbis — claiming territory, posting, creating and joining tribes, messaging — happen in the [Android](https://github.com/orbis-geonet/android-app) and iOS apps. The only transactional features on the web are the **$ORBIS exchange** and Stripe **subscription** checkout.
+> **Orbis Web is a read-only, public window into the network.** Its job is to let anyone — signed in or not — **view and share** the web pages of users, tribes, places, and posts, browse the live territory map, and read the [network dashboard](https://orbis.social/network). The interactive parts of Orbis — claiming territory, posting, creating and joining tribes, messaging — happen in the [Android](https://github.com/orbis-geonet/android-app) and iOS apps. The only transactional feature on the web is the **$ORBIS exchange**.
 
 ## What it does
 
@@ -16,7 +16,6 @@ Orbis Web renders the public, shareable pages of the network — the map and the
 - **Social feed & posts** — posts with threaded comments (App Router parallel routes) and link previews.
 - **$ORBIS exchange** — an in-browser SOL ⇄ $ORBIS swap widget using the Solana Wallet Standard and MetaMask's Solana connector.
 - **Network dashboard** — [`/network`](https://orbis.social/network), the live orbis-geonet view (program, fees, registered clones).
-- **Subscriptions** — Stripe-backed plans and subscribe flows.
 - **Referrals & search** — shareable referral links and site-wide search.
 - **Internationalization** — 16 languages (`ar, de, en, es, fr, hi, it, ja, ko, nl, pl, pt, ru, tr, zh` + regional), with automatic locale detection by geography and `Accept-Language`.
 - **SEO** — dynamic, paginated sitemaps for places and tribes.
@@ -27,7 +26,6 @@ Orbis Web renders the public, shareable pages of the network — the map and the
 - **UI:** Tailwind CSS · [shadcn/ui](https://ui.shadcn.com/) · MUI · Embla · Recharts
 - **Data:** TanStack Query
 - **Auth & media:** Firebase (Authentication, Storage, Realtime Database)
-- **Payments:** Stripe
 - **Solana:** `@coral-xyz/anchor`, `@solana/web3.js`, `@solana/spl-token`, `@solana/spl-account-compression`, Wallet Standard, MetaMask Solana
 - **Maps & geo:** Leaflet, `@turf/turf`, `geolib`, `polylabel`
 - **i18n:** `@formatjs/intl-localematcher`, `negotiator`, `countries-list`, `flag-icons`
@@ -95,7 +93,7 @@ Copy [`.env.example`](./.env.example) to `.env.local` and fill it in. **Any vari
 ```
 src/
   app/            App Router routes: map, network, exchange, group (tribes),
-                  place, user, post, plans, subscribe, referral, search, sitemaps
+                  place, user, post, referral, search, sitemaps
     api/          Server route handlers: parse-address, preview, swap
   components/     Shared components (components/ui = shadcn/ui)
   context/        React context providers

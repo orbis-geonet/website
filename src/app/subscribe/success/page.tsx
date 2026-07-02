@@ -1,3 +1,12 @@
+import { notFound } from "next/navigation";
+
+// Subscriptions are no longer offered — this route is disabled and returns 404.
+// The original implementation is preserved (commented out) below in case it is reinstated.
+export default function Page() {
+  return notFound();
+}
+
+/* ----- ORIGINAL IMPLEMENTATION (disabled: subscriptions removed) -----
 "use client";
 import React, { useEffect } from "react";
 import { default as SuccessfulPayment } from "@public/successful-payment.svg";
@@ -59,3 +68,4 @@ const SuccessPage: React.FC<PROPS> = ({ searchParams }) => {
 };
 
 export default SuccessPage;
+----- END ORIGINAL ----- */

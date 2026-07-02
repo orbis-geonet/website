@@ -1,3 +1,12 @@
+import { notFound } from "next/navigation";
+
+// Subscriptions are no longer offered — this route is disabled and returns 404.
+// The original implementation is preserved (commented out) below in case it is reinstated.
+export default function Page() {
+  return notFound();
+}
+
+/* ----- ORIGINAL IMPLEMENTATION (disabled: subscriptions removed) -----
 "use client";
 import React, { useEffect, useState } from "react";
 import {
@@ -170,3 +179,4 @@ export default function App({ params }: { params: { id: string } }) {
     </div>
   );
 }
+----- END ORIGINAL ----- */
