@@ -4,7 +4,12 @@ The official web client for **Orbis** — a [geo-social network](https://en.wiki
 
 It is a **thin client** — it talks to an Orbis backend over HTTP and reads on-chain state directly from Solana — so anyone can run their own branded instance and point it at their own deployment.
 
+> **Orbis Web is a read-only, public window into the network.** Its job is to let anyone — signed in or not — **view and share** the web pages of users, tribes, places, and posts, browse the live territory map, and read the [network dashboard](https://orbis.social/network). The interactive parts of Orbis — claiming territory, posting, creating and joining tribes, messaging — happen in the [Android](https://github.com/orbis-geonet/android-app) and iOS apps. The only transactional features on the web are the **$ORBIS exchange** and Stripe **subscription** checkout.
+
 ## What it does
+
+Orbis Web renders the public, shareable pages of the network — the map and the profiles behind every claim:
+
 
 - **Live territory map** — tribal territories rendered as real-time polygons ([Leaflet](https://leafletjs.com/) + [turf](https://turfjs.org/) + `geolib` + `polylabel`), the map primitives from the [territory-fusion research](https://github.com/orbis-geonet/research).
 - **Tribes, places & profiles** — browse tribe pages, real-world place pages, and user profiles.
