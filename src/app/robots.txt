@@ -1,0 +1,9 @@
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Disallow API endpoints
+Disallow: /api/
+
+
+Sitemap: https://orbis.social/sitemap.xml

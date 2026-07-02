@@ -1,0 +1,171 @@
+{
+  "homePage": {
+    "heroHeading": "あなたの地域のデジタルトライブ",
+    "heroDescription": "あなたの地域のデジタルトライブをマッピングするために作成されたソーシャルネットワーク。Orbisで、あなたの周りのデジタルトライブを発見できます。",
+    "feature1Text": "トライブを作成または参加する。",
+    "feature2Text": "トライブと一緒に場所を獲得し、地図上でトライブのシンボルでテリトリーをマークする。",
+    "feature3Text": "場所を獲得して他のトライブと所有権を競う。",
+    "feature4Text": "地域での獲得が多いほど、その周辺のトライブのテリトリーが大きくなる。友達に場所の獲得を促そう。",
+    "feature5Text": "トライブと一緒に場所を獲得し、地図上でトライブのシンボルでテリトリーをマークする。",
+    "feature6Text": "トライブ内にメンバーズクラブを作成し、Orbisの利用を収益化する。サブスクリプション、チケット、特典などを販売できる。",
+    "appStoreURL": "https://apps.apple.com/ca/app/orbis-tribos-digitais/id1453025529"
+  },
+  "groupPage": {
+    "metaTitle": "トライブ"
+  },
+  "placePage": {
+    "seeTimetables": "スケジュールを見る",
+    "goToWebsite": "ウェブサイトへ",
+    "availableTimes": "利用可能な時間",
+    "schedules": "スケジュール",
+    "telephone": "電話番号",
+    "hoursUnavailable": "この場所の利用時間は未定",
+    "address": "住所",
+    "openInGoogleMaps": "Googleマップで開く",
+    "groupsInThisPlace": "この場所のトライブ",
+    "placesTheGroupFrequents": "トライブがよく訪れる場所",
+    "connect": "接続",
+    "site": "サイト",
+    "metaTitle": "場所"
+  },
+  "common": {
+    "searchbarPlaceholder": "デジタルトライブを検索",
+    "searchSuggestionHeading": "探しているもの",
+    "downloadHere": "ここからダウンロード",
+    "termsAndCondition": "利用規約",
+    "privacyPolicy": "プライバシーポリシー",
+    "home": "ホーム",
+    "group": "トライブ",
+    "groups": "トライブ",
+    "searchResults": "検索結果",
+    "latestPosts": "最新の投稿",
+    "events": "イベント",
+    "members": "メンバー",
+    "whereIsIt": "場所は？",
+    "gallery": "ギャラリー",
+    "followers": "フォロワー",
+    "followings": "フォロー中",
+    "place": "場所",
+    "goBack": "戻る",
+    "seeMore": "もっと見る",
+    "seeLess": "折りたたむ",
+    "chooseOS": "OSを選択",
+    "goToHomepage": "ホームページへ",
+    "map": "地図",
+    "navDeveloper": "開発者"
+  },
+  "errors": {
+    "noMatchingResultsFound": "一致する結果が見つかりません",
+    "groupHasNoMembers": "トライブにメンバーがいません",
+    "noPosts": "投稿がありません",
+    "noPhotos": "写真がありません",
+    "placeDoesntExist": "場所が存在しません",
+    "groupDoesntExist": "トライブが存在しません",
+    "userDoesntExist": "ユーザーが存在しません",
+    "pageNotFound": "ページが見つかりません",
+    "unableToFindRequestedResource": "要求されたリソースが見つかりません",
+    "groupHasNoPlace": "トライブに場所がありません",
+    "noEvents": "イベントがありません",
+    "noComments": "コメントがありません",
+    "noFollowings": "フォロー中なし",
+    "noFollowers": "フォロワーなし",
+    "noGroups": "トライブなし"
+  },
+  "monitizeCommunityBanner": {
+    "heading": "トライブを収益化",
+    "description": "トライブのメンバーにサブスクリプション、チケット、特典、分割払いパッケージを販売する。",
+    "buttonText": "詳細を見る",
+    "closableBannerHeading": "オファーと特典を作成してトライブを収益化。",
+    "closableBannerHighlightedText": "クリックして詳細を確認。"
+  },
+  "mapBanner": {
+    "heading": "あなたの街のデジタルトライブマップを探索",
+    "description": "あなたの近くの活気あるデジタルコミュニティを発見。地図を開くをクリックして、あなたの地域のトライブをナビゲートし、接続する。",
+    "buttonText": "地図を開く"
+  },
+  "githubBanner": {
+    "heading": "分散型マップに貢献する",
+    "description": "Orbisは、トライブマップがSolanaブロックチェーンに記録されるオープンソースプロジェクトです。独自のOrbisクローンを作成して参加しましょう。",
+    "buttonText": "GitHub"
+  },
+  "subscriptionBanner": {
+    "offerActivatedHeading": "コミュニティメンバー専用の特別な機会を探索。メンバーズクラブボタンをクリック。",
+    "offerActivatedButtonText": "メンバーズクラブ",
+    "offerInactiveHeading": "トライブのメンバーにサブスクリプション、チケット、特典、分割払いパッケージを販売する。",
+    "offerInactiveButtonText": "詳細を見る"
+  },
+  "paymentStatusPage": {
+    "successHeading": "支払い成功",
+    "successDescription": "登録を使用してOrbisを楽しめます。確認メールが届きます。アプリをダウンロードして、Orbisへようこそ！",
+    "errorHeading": "支払い失敗",
+    "errorDescription": "心配しないでください。プロセスに戻り、提供された情報が正しいか、支払い方法が適切か確認してください。",
+    "buttonText": "ホームページへ",
+    "paymentCannotBeCompletedErrorHeading": "支払いを完了できませんでした。",
+    "paymentCannotBeCompletedErrorDescription": "これは通常、すでにプランに登録している場合に発生します。アプリを使用してオファーを更新してください。"
+  },
+  "paymentPage": {
+    "processingPayment": "支払い処理中",
+    "payNow": "今すぐ支払う"
+  },
+  "plansPage": {
+    "heading": "トライブオファー",
+    "youWillBeCharged": "請求されます",
+    "onceAYear": "年1回",
+    "onceAMonth": "毎月",
+    "in": "で",
+    "annualInstallment": "年払い、合計",
+    "monthlyInstallment": "月払い、合計",
+    "perUnit": "単位あたり",
+    "buy": "購入",
+    "seeImages": "画像を見る",
+    "month": "月",
+    "year": "年",
+    "metaTitle": "プラン"
+  },
+  "auth": {
+    "registerHeading": "個人登録",
+    "name": "名前",
+    "email": "メール",
+    "password": "パスワード",
+    "register": "登録",
+    "loginHeading": "個人ログイン",
+    "login": "ログイン"
+  },
+  "user": {
+    "metaTitle": "ユーザー"
+  },
+  "tos": {
+    "metaTitle": "利用規約"
+  },
+  "privacy": {
+    "metaTitle": "プライバシーポリシー"
+  },
+  "meta": {
+    "title": "Orbis デジタルトライブ",
+    "description": "あなたの地域のデジタルトライブをマッピングするために作成されたソーシャルネットワーク。Orbisで、あなたの周りのデジタルトライブを発見できます。"
+  },
+  "exchange": {
+    "heroCopyHeading": "クローンオペレーターになろう。独自のOrbisノードを運営しよう。",
+    "heroCopyBody": "Orbis GeoNet（地理インターネット）は、グローバルなソーシャルマップを支える分散型プロトコルレイヤーです。すべての登録された場所、コミュニティ、領域は、Solana上に検証可能なハッシュとして保存されます — 永続的でオープン、かつ単一の企業に所有されません。クローンオペレーターとして、共有マップ上で独立したアプリを運営し、ユーザーから収益を得て、バイト手数料の99%を保持できます。50 $ORBISでクローンを登録し、構築を始めましょう。"
+  },
+  "exchangeWidget": {
+    "buy": "購入",
+    "sell": "売却",
+    "youSend": "送信量",
+    "youGet": "受取量",
+    "disconnect": "切断",
+    "networkFee": "ネットワーク手数料 ≈ 0.00001 SOL",
+    "fetchingRate": "レートを取得中…",
+    "waitingConfirmation": "確認待ち…",
+    "connectWallet": "ウォレットを接続",
+    "insufficientSol": "SOL残高不足",
+    "insufficientOrbis": "Orbis残高不足",
+    "buyBtn": "購入",
+    "sellBtn": "売却",
+    "transactionConfirmed": "取引が確認されました。",
+    "viewOnSolscan": "Solscanで表示",
+    "failedToConnect": "ウォレットの接続に失敗しました。",
+    "transactionFailed": "取引に失敗しました。",
+    "termsAgreement": "接続することでサービス利用規約に同意します"
+  }
+}

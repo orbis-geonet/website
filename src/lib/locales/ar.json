@@ -1,0 +1,171 @@
+{
+    "homePage": {
+        "heroHeading": "القبائل الرقمية في خريطة منطقتك",
+        "heroDescription": "شبكة اجتماعية تم إنشاؤها لرسم خريطة القبائل الرقمية في منطقتك. باستخدام Orbis، يمكنك اكتشاف القبائل الرقمية حولك.",
+        "feature1Text": "إنشاء أو الانضمام إلى قبيلة.",
+        "feature2Text": "استحوذ على الأماكن مع قبائلك وحدد إقليمك على الخريطة برمز القبيلة.",
+        "feature3Text": "تنافس مع القبائل الأخرى على ملكية الأماكن من خلال استحواذك عليها.",
+        "feature4Text": "كلما زاد عدد الاستحواذات في منطقة، زاد حجم إقليم القبيلة حولها. لذا أخبر أصدقاءك بالاستحواذ على الأماكن.",
+        "feature5Text": "استحوذ على الأماكن مع قبيلتك وحدد إقليمك على الخريطة برمز القبيلة.",
+        "feature6Text": "أنشئ نادي أعضاء داخل قبيلتك وحقق ربحاً من استخدام Orbis. بيع الاشتراكات والتذاكر والمزايا والمزيد.",
+        "appStoreURL": "https://apps.apple.com/ca/app/orbis-tribos-digitais/id1453025529"
+    },
+    "groupPage": {
+        "metaTitle": "قبيلة"
+    },
+    "placePage": {
+        "seeTimetables": "عرض الجداول",
+        "goToWebsite": "الذهاب إلى الموقع",
+        "availableTimes": "الأوقات المتاحة",
+        "schedules": "الجداول",
+        "telephone": "الهاتف",
+        "hoursUnavailable": "أوقات غير متاحة لهذا الموقع",
+        "address": "العنوان",
+        "openInGoogleMaps": "فتح في خرائط جوجل",
+        "groupsInThisPlace": "القبائل في هذا المكان",
+        "placesTheGroupFrequents": "الأماكن التي تتردد عليها القبيلة",
+        "connect": "اتصال",
+        "site": "موقع",
+        "metaTitle": "مكان"
+    },
+    "common": {
+        "searchbarPlaceholder": "البحث عن القبائل الرقمية",
+        "searchSuggestionHeading": "هل تبحث عن",
+        "downloadHere": "تحميل من هنا",
+        "termsAndCondition": "الشروط والأحكام",
+        "privacyPolicy": "سياسة الخصوصية",
+        "home": "الرئيسية",
+        "group": "قبيلة",
+        "groups": "قبائل",
+        "searchResults": "نتائج البحث",
+        "latestPosts": "أحدث المنشورات",
+        "events": "الفعاليات",
+        "members": "الأعضاء",
+        "whereIsIt": "أين هو؟",
+        "gallery": "معرض",
+        "followers": "المتابعون",
+        "followings": "المتابَعون",
+        "place": "مكان",
+        "goBack": "العودة",
+        "seeMore": "المزيد",
+        "seeLess": "أقل",
+        "chooseOS": "اختر نظام التشغيل",
+        "goToHomepage": "الذهاب إلى الصفحة الرئيسية",
+        "map": "خريطة",
+        "navDeveloper": "مطوّر"
+    },
+    "errors": {
+        "noMatchingResultsFound": "لم يتم العثور على نتائج مطابقة",
+        "groupHasNoMembers": "القبيلة ليس لديها أعضاء",
+        "noPosts": "لا توجد منشورات",
+        "noPhotos": "لا توجد صور",
+        "placeDoesntExist": "المكان غير موجود",
+        "groupDoesntExist": "القبيلة غير موجودة",
+        "userDoesntExist": "المستخدم غير موجود",
+        "pageNotFound": "الصفحة غير موجودة",
+        "unableToFindRequestedResource": "تعذر العثور على المورد المطلوب",
+        "groupHasNoPlace": "القبيلة ليس لديها أماكن",
+        "noEvents": "لا توجد فعاليات",
+        "noComments": "لا توجد تعليقات",
+        "noFollowings": "لا يوجد متابَعون",
+        "noFollowers": "لا يوجد متابعون",
+        "noGroups": "لا توجد قبائل"
+    },
+    "monitizeCommunityBanner": {
+        "heading": "حقق ربحاً من قبيلتك",
+        "description": "بيع الاشتراكات والتذاكر والمزايا وحزم التقسيط لأعضاء قبيلتك.",
+        "buttonText": "اعرف المزيد",
+        "closableBannerHeading": "حقق ربحاً من قبيلتك من خلال إنشاء العروض والمزايا.",
+        "closableBannerHighlightedText": "انقر هنا لمعرفة المزيد."
+    },
+    "mapBanner": {
+        "heading": "استكشف خريطة القبائل الرقمية في مدينتك",
+        "description": "اكتشف المجتمعات الرقمية النشطة حولك. انقر على فتح الخريطة للتنقل والاتصال بالقبائل في منطقتك.",
+        "buttonText": "فتح الخريطة"
+    },
+    "githubBanner": {
+        "heading": "ساهم في الخريطة اللامركزية",
+        "description": "Orbis هو مشروع مفتوح المصدر حيث يتم تسجيل خريطة القبائل على بلوكتشين Solana. أنشئ نسختك الخاصة من Orbis وشارك.",
+        "buttonText": "GitHub"
+    },
+    "subscriptionBanner": {
+        "offerActivatedHeading": "اكتشف الفرص الحصرية المتاحة لأعضاء مجتمعنا. انقر على زر نادي الأعضاء.",
+        "offerActivatedButtonText": "نادي الأعضاء",
+        "offerInactiveHeading": "بيع الاشتراكات والتذاكر والمزايا وحزم التقسيط لأعضاء قبيلتك.",
+        "offerInactiveButtonText": "اعرف المزيد"
+    },
+    "paymentStatusPage": {
+        "successHeading": "تم الدفع بنجاح",
+        "successDescription": "يمكنك الآن الاستمتاع بـ Orbis باستخدام تسجيلك. ستتلقى بريداً إلكترونياً للتأكيد، قم بتحميل التطبيق، ومرحباً بك في Orbis!",
+        "errorHeading": "فشل الدفع",
+        "errorDescription": "لكن لا تقلق، ارجع إلى العملية، تحقق مما إذا كانت المعلومات المقدمة صحيحة أو إذا كانت طريقة الدفع مناسبة.",
+        "buttonText": "الذهاب إلى الصفحة الرئيسية",
+        "paymentCannotBeCompletedErrorHeading": "تعذر إكمال الدفع.",
+        "paymentCannotBeCompletedErrorDescription": "يحدث هذا عادةً عندما تكون قد اشتركت بالفعل في الخطة. يرجى استخدام تطبيقنا لتحديث عرضك."
+    },
+    "paymentPage": {
+        "processingPayment": "معالجة الدفع",
+        "payNow": "ادفع الآن"
+    },
+    "plansPage": {
+        "heading": "عروض القبيلة",
+        "youWillBeCharged": "سيتم محاسبتك",
+        "onceAYear": "مرة في السنة",
+        "onceAMonth": "شهرياً",
+        "in": "في",
+        "annualInstallment": "أقساط سنوية، المجموع",
+        "monthlyInstallment": "أقساط شهرية، المجموع",
+        "perUnit": "للوحدة",
+        "buy": "شراء",
+        "seeImages": "عرض الصور",
+        "month": "شهر",
+        "year": "سنة",
+        "metaTitle": "الخطط"
+    },
+    "auth": {
+        "registerHeading": "تسجيل شخصي",
+        "name": "الاسم",
+        "email": "البريد الإلكتروني",
+        "password": "كلمة المرور",
+        "register": "تسجيل",
+        "loginHeading": "تسجيل دخول شخصي",
+        "login": "تسجيل الدخول"
+    },
+    "user": {
+        "metaTitle": "مستخدم"
+    },
+    "tos": {
+        "metaTitle": "الشروط والأحكام"
+    },
+    "privacy": {
+        "metaTitle": "سياسة الخصوصية"
+    },
+    "meta": {
+        "title": "Orbis القبائل الرقمية",
+        "description": "شبكة اجتماعية تم إنشاؤها لرسم خريطة القبائل الرقمية في منطقتك. باستخدام Orbis، يمكنك اكتشاف القبائل الرقمية حولك."
+    },
+    "exchange": {
+        "heroCopyHeading": "كن مشغّل نسخة. شغّل عقدتك الخاصة من Orbis.",
+        "heroCopyBody": "Orbis GeoNet (الإنترنت الجغرافي) هي طبقة بروتوكول لامركزية تُشغّل خريطة اجتماعية عالمية. يتم تخزين كل موقع مُطالب به، وكل قبيلة وإقليم، كهاش قابل للتحقق على سولانا — دائم، مفتوح، ولا تملكه أي شركة واحدة. بصفتك مشغّل نسخة، يمكنك تشغيل تطبيقك المستقل على الخريطة المشتركة، وتحقيق أرباح من مستخدميك، والاحتفاظ بـ 99٪ من رسوم البايت. سجّل نسخة مقابل 50 ORBIS$ وابدأ البناء."
+    },
+    "exchangeWidget": {
+        "buy": "شراء",
+        "sell": "بيع",
+        "youSend": "أنت ترسل",
+        "youGet": "أنت تستلم",
+        "disconnect": "قطع الاتصال",
+        "networkFee": "رسوم الشبكة ≈ 0.00001 SOL",
+        "fetchingRate": "جارٍ جلب السعر…",
+        "waitingConfirmation": "في انتظار التأكيد…",
+        "connectWallet": "ربط المحفظة",
+        "insufficientSol": "رصيد SOL غير كافٍ",
+        "insufficientOrbis": "رصيد Orbis غير كافٍ",
+        "buyBtn": "شراء",
+        "sellBtn": "بيع",
+        "transactionConfirmed": "تمت المعاملة.",
+        "viewOnSolscan": "عرض على Solscan",
+        "failedToConnect": "فشل الاتصال بالمحفظة.",
+        "transactionFailed": "فشلت المعاملة.",
+        "termsAgreement": "بالاتصال فإنك توافق على شروط الخدمة"
+    }
+}

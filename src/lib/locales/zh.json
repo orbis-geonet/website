@@ -1,0 +1,171 @@
+{
+  "homePage": {
+    "heroHeading": "您地区的数字部落",
+    "heroDescription": "为绘制您地区的数字部落而创建的社交网络。使用Orbis，您可以发现周围的数字部落。",
+    "feature1Text": "创建或加入部落。",
+    "feature2Text": "与部落一起占领场所，并用部落符号在地图上标记您的领地。",
+    "feature3Text": "通过占领场所与其他部落竞争所有权。",
+    "feature4Text": "一个地区的占领越多，该地区周围的部落领地就越大。所以告诉您的朋友来占领场所吧。",
+    "feature5Text": "与部落一起占领场所，并用部落符号在地图上标记您的领地。",
+    "feature6Text": "在部落内创建会员俱乐部，将Orbis的使用变现。销售订阅、门票、福利等。",
+    "appStoreURL": "https://apps.apple.com/ca/app/orbis-tribos-digitais/id1453025529"
+  },
+  "groupPage": {
+    "metaTitle": "部落"
+  },
+  "placePage": {
+    "seeTimetables": "查看时间表",
+    "goToWebsite": "访问网站",
+    "availableTimes": "可用时间",
+    "schedules": "时间表",
+    "telephone": "电话",
+    "hoursUnavailable": "此地点的时间未定",
+    "address": "地址",
+    "openInGoogleMaps": "在谷歌地图中打开",
+    "groupsInThisPlace": "此地的部落",
+    "placesTheGroupFrequents": "部落常去的场所",
+    "connect": "连接",
+    "site": "网站",
+    "metaTitle": "场所"
+  },
+  "common": {
+    "searchbarPlaceholder": "搜索数字部落",
+    "searchSuggestionHeading": "您是否在寻找",
+    "downloadHere": "在此下载",
+    "termsAndCondition": "条款和条件",
+    "privacyPolicy": "隐私政策",
+    "home": "首页",
+    "group": "部落",
+    "groups": "部落",
+    "searchResults": "搜索结果",
+    "latestPosts": "最新帖子",
+    "events": "活动",
+    "members": "成员",
+    "whereIsIt": "在哪里？",
+    "gallery": "图库",
+    "followers": "关注者",
+    "followings": "关注",
+    "place": "场所",
+    "goBack": "返回",
+    "seeMore": "查看更多",
+    "seeLess": "收起",
+    "chooseOS": "选择操作系统",
+    "goToHomepage": "转到首页",
+    "map": "地图",
+    "navDeveloper": "开发者"
+  },
+  "errors": {
+    "noMatchingResultsFound": "未找到匹配结果",
+    "groupHasNoMembers": "部落没有成员",
+    "noPosts": "没有帖子",
+    "noPhotos": "没有照片",
+    "placeDoesntExist": "场所不存在",
+    "groupDoesntExist": "部落不存在",
+    "userDoesntExist": "用户不存在",
+    "pageNotFound": "页面未找到",
+    "unableToFindRequestedResource": "无法找到请求的资源",
+    "groupHasNoPlace": "部落没有场所",
+    "noEvents": "没有活动",
+    "noComments": "没有评论",
+    "noFollowings": "没有关注",
+    "noFollowers": "没有关注者",
+    "noGroups": "没有部落"
+  },
+  "monitizeCommunityBanner": {
+    "heading": "将您的部落变现",
+    "description": "向部落成员销售订阅、门票、福利和分期付款套餐。",
+    "buttonText": "了解更多",
+    "closableBannerHeading": "创建优惠和福利来将您的部落变现。",
+    "closableBannerHighlightedText": "点击了解更多。"
+  },
+  "mapBanner": {
+    "heading": "探索您城市的数字部落地图",
+    "description": "发现您周围充满活力的数字社区。点击打开地图来导航和连接您地区的部落。",
+    "buttonText": "打开地图"
+  },
+  "githubBanner": {
+    "heading": "为去中心化地图做贡献",
+    "description": "Orbis是一个开源项目，部落地图记录在Solana区块链上。创建您自己的Orbis克隆并参与其中。",
+    "buttonText": "GitHub"
+  },
+  "subscriptionBanner": {
+    "offerActivatedHeading": "探索社区成员专属的特别机会。点击会员俱乐部按钮。",
+    "offerActivatedButtonText": "会员俱乐部",
+    "offerInactiveHeading": "向部落成员销售订阅、门票、福利和分期付款套餐。",
+    "offerInactiveButtonText": "了解更多"
+  },
+  "paymentStatusPage": {
+    "successHeading": "支付成功",
+    "successDescription": "现在您可以使用注册来享受Orbis了。您将收到确认邮件，下载应用程序，欢迎使用Orbis！",
+    "errorHeading": "支付失败",
+    "errorDescription": "但别担心，返回流程，检查提供的信息是否正确或支付方式是否适当。",
+    "buttonText": "转到首页",
+    "paymentCannotBeCompletedErrorHeading": "无法完成支付。",
+    "paymentCannotBeCompletedErrorDescription": "这通常发生在您已经订阅了该计划时。请使用我们的应用程序更新您的优惠。"
+  },
+  "paymentPage": {
+    "processingPayment": "处理支付中",
+    "payNow": "立即支付"
+  },
+  "plansPage": {
+    "heading": "部落优惠",
+    "youWillBeCharged": "您将被收取",
+    "onceAYear": "每年一次",
+    "onceAMonth": "每月",
+    "in": "在",
+    "annualInstallment": "年度分期付款，总计",
+    "monthlyInstallment": "月度分期付款，总计",
+    "perUnit": "每单位",
+    "buy": "购买",
+    "seeImages": "查看图片",
+    "month": "月",
+    "year": "年",
+    "metaTitle": "计划"
+  },
+  "auth": {
+    "registerHeading": "个人注册",
+    "name": "姓名",
+    "email": "电子邮件",
+    "password": "密码",
+    "register": "注册",
+    "loginHeading": "个人登录",
+    "login": "登录"
+  },
+  "user": {
+    "metaTitle": "用户"
+  },
+  "tos": {
+    "metaTitle": "条款和条件"
+  },
+  "privacy": {
+    "metaTitle": "隐私政策"
+  },
+  "meta": {
+    "title": "Orbis数字部落",
+    "description": "为绘制您地区的数字部落而创建的社交网络。使用Orbis，您可以发现周围的数字部落。"
+  },
+  "exchange": {
+    "heroCopyHeading": "成为克隆运营商。运行您自己的 Orbis 节点。",
+    "heroCopyBody": "Orbis GeoNet（地理互联网）是驱动全球社交地图的去中心化协议层。每一个被认领的地点、部落和领地都以可验证的哈希形式存储在 Solana 上——永久、开放，且不属于任何单一公司。作为克隆运营者，你可以在共享地图上运行自己的独立应用，从用户中获利，并保留 99% 的字节费用。支付 50 $ORBIS 注册一个克隆并开始构建。"
+  },
+  "exchangeWidget": {
+    "buy": "购买",
+    "sell": "出售",
+    "youSend": "您发送",
+    "youGet": "您获得",
+    "disconnect": "断开连接",
+    "networkFee": "网络费用 ≈ 0.00001 SOL",
+    "fetchingRate": "正在获取汇率…",
+    "waitingConfirmation": "等待确认…",
+    "connectWallet": "连接钱包",
+    "insufficientSol": "SOL余额不足",
+    "insufficientOrbis": "Orbis余额不足",
+    "buyBtn": "购买",
+    "sellBtn": "出售",
+    "transactionConfirmed": "交易已确认。",
+    "viewOnSolscan": "在Solscan查看",
+    "failedToConnect": "钱包连接失败。",
+    "transactionFailed": "交易失败。",
+    "termsAgreement": "连接即表示您同意服务条款"
+  }
+}

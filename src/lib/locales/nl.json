@@ -1,0 +1,171 @@
+{
+  "homePage": {
+    "heroHeading": "Digitale stammen op de kaart van jouw regio",
+    "heroDescription": "Een sociaal netwerk gemaakt om digitale stammen in jouw omgeving in kaart te brengen. Met Orbis kun je digitale stammen om je heen ontdekken.",
+    "feature1Text": "Maak of word lid van een stam.",
+    "feature2Text": "Claim locaties met je stammen en markeer je territorium op de kaart met het symbool van de stam.",
+    "feature3Text": "Strijd met andere stammen om eigendom van locaties door ze te claimen.",
+    "feature4Text": "Hoe meer claims er in een regio zijn, hoe groter het territorium van de stam eromheen wordt. Vertel je vrienden dus locaties te claimen.",
+    "feature5Text": "Claim locaties met je stam en markeer je territorium op de kaart met het symbool van de stam.",
+    "feature6Text": "Maak een ledenclub binnen je stam en verdien geld met je gebruik van Orbis. Verkoop abonnementen, tickets, voordelen en meer.",
+    "appStoreURL": "https://apps.apple.com/ca/app/orbis-tribos-digitais/id1453025529"
+  },
+  "groupPage": {
+    "metaTitle": "Stam"
+  },
+  "placePage": {
+    "seeTimetables": "Bekijk schema's",
+    "goToWebsite": "Ga naar de website",
+    "availableTimes": "Beschikbare tijden",
+    "schedules": "Schema's",
+    "telephone": "Telefoon",
+    "hoursUnavailable": "Geen beschikbare uren voor deze locatie",
+    "address": "Adres",
+    "openInGoogleMaps": "Open in Google Maps",
+    "groupsInThisPlace": "Stammen op deze locatie",
+    "placesTheGroupFrequents": "Locaties die de stam frequent bezoekt",
+    "connect": "Verbinden",
+    "site": "site",
+    "metaTitle": "Locatie"
+  },
+  "common": {
+    "searchbarPlaceholder": "Zoek digitale stammen",
+    "searchSuggestionHeading": "Ben je op zoek naar",
+    "downloadHere": "Download hier",
+    "termsAndCondition": "Algemene voorwaarden",
+    "privacyPolicy": "Privacybeleid",
+    "home": "Home",
+    "group": "Stam",
+    "groups": "Stammen",
+    "searchResults": "Zoekresultaten",
+    "latestPosts": "Laatste berichten",
+    "events": "Evenementen",
+    "members": "Leden",
+    "whereIsIt": "Waar is het?",
+    "gallery": "Galerij",
+    "followers": "Volgers",
+    "followings": "Volgend",
+    "place": "Locatie",
+    "goBack": "Ga terug",
+    "seeMore": "Meer zien",
+    "seeLess": "Minder zien",
+    "chooseOS": "Kies je besturingssysteem",
+    "goToHomepage": "Ga naar homepage",
+    "map": "Kaart",
+    "navDeveloper": "Ontwikkelaar"
+  },
+  "errors": {
+    "noMatchingResultsFound": "Geen overeenkomende resultaten gevonden",
+    "groupHasNoMembers": "De stam heeft geen leden",
+    "noPosts": "Er zijn geen berichten",
+    "noPhotos": "Er zijn geen foto's",
+    "placeDoesntExist": "Locatie bestaat niet",
+    "groupDoesntExist": "Stam bestaat niet",
+    "userDoesntExist": "Gebruiker bestaat niet",
+    "pageNotFound": "Pagina niet gevonden",
+    "unableToFindRequestedResource": "Kan de opgevraagde bron niet vinden",
+    "groupHasNoPlace": "De stam heeft geen locaties",
+    "noEvents": "Er zijn geen evenementen",
+    "noComments": "Geen reacties",
+    "noFollowings": "Geen volgend",
+    "noFollowers": "Geen volgers",
+    "noGroups": "Geen stammen"
+  },
+  "monitizeCommunityBanner": {
+    "heading": "Verdien geld met je stam",
+    "description": "Verkoop abonnementen, tickets, voordelen en termijnbetalingen aan de leden van je stam.",
+    "buttonText": "Meer weten",
+    "closableBannerHeading": "Verdien geld met je stam door aanbiedingen en voordelen te creëren.",
+    "closableBannerHighlightedText": "Klik hier om meer te weten te komen."
+  },
+  "mapBanner": {
+    "heading": "Verken de kaart van digitale stammen in je stad",
+    "description": "Ontdek levendige digitale gemeenschappen in je buurt. Klik op Kaart openen om te navigeren en verbinding te maken met stammen in je regio.",
+    "buttonText": "Kaart openen"
+  },
+  "githubBanner": {
+    "heading": "Draag bij aan de gedecentraliseerde kaart",
+    "description": "Orbis is een open source project waarbij de stammenkaart wordt vastgelegd op de Solana blockchain. Maak je eigen Orbis-kloon en doe mee.",
+    "buttonText": "GitHub"
+  },
+  "subscriptionBanner": {
+    "offerActivatedHeading": "Ontdek de exclusieve mogelijkheden beschikbaar voor leden van onze gemeenschap. Klik op de knop Ledenclub.",
+    "offerActivatedButtonText": "Ledenclub",
+    "offerInactiveHeading": "Verkoop abonnementen, tickets, voordelen en termijnbetalingen aan de leden van je stam.",
+    "offerInactiveButtonText": "Meer weten"
+  },
+  "paymentStatusPage": {
+    "successHeading": "Betaling succesvol",
+    "successDescription": "Je kunt nu genieten van Orbis met je registratie. Je ontvangt een bevestigingsmail, download de app, en welkom bij Orbis!",
+    "errorHeading": "Betaling mislukt",
+    "errorDescription": "Maak je geen zorgen, ga terug in het proces, controleer of de verstrekte informatie correct is of of de betaalmethode geschikt is.",
+    "buttonText": "Ga naar homepage",
+    "paymentCannotBeCompletedErrorHeading": "Betaling kon niet worden voltooid.",
+    "paymentCannotBeCompletedErrorDescription": "Dit gebeurt meestal wanneer je al bent geabonneerd op het plan. Gebruik onze app om je aanbod bij te werken."
+  },
+  "paymentPage": {
+    "processingPayment": "Betaling verwerken",
+    "payNow": "Nu betalen"
+  },
+  "plansPage": {
+    "heading": "Stam aanbiedingen",
+    "youWillBeCharged": "Je wordt gefactureerd",
+    "onceAYear": "een keer per jaar",
+    "onceAMonth": "maandelijks",
+    "in": "in",
+    "annualInstallment": "jaarlijkse termijnen, totaal",
+    "monthlyInstallment": "maandelijkse termijnen, totaal",
+    "perUnit": "per eenheid",
+    "buy": "Kopen",
+    "seeImages": "afbeeldingen bekijken",
+    "month": "maand",
+    "year": "jaar",
+    "metaTitle": "Plannen"
+  },
+  "auth": {
+    "registerHeading": "Persoonlijke registratie",
+    "name": "Naam",
+    "email": "E-mail",
+    "password": "Wachtwoord",
+    "register": "Registreren",
+    "loginHeading": "Persoonlijk inloggen",
+    "login": "Inloggen"
+  },
+  "user": {
+    "metaTitle": "Gebruiker"
+  },
+  "tos": {
+    "metaTitle": "Algemene voorwaarden"
+  },
+  "privacy": {
+    "metaTitle": "Privacybeleid"
+  },
+  "meta": {
+    "title": "Orbis Digitale Stammen",
+    "description": "Een sociaal netwerk gemaakt om digitale stammen in jouw omgeving in kaart te brengen. Met Orbis kun je digitale stammen om je heen ontdekken."
+  },
+  "exchange": {
+    "heroCopyHeading": "Word kloonoperator. Draai je eigen Orbis-knooppunt.",
+    "heroCopyBody": "Orbis GeoNet (Geografisch Internet) is de gedecentraliseerde protocollaag die een wereldwijde sociale kaart aandrijft. Elke geclaimde plaats, stam en territorium wordt opgeslagen als een verifieerbare hash op Solana — permanent, open en eigendom van geen enkel bedrijf. Als clone-operator run je je eigen onafhankelijke app op de gedeelde kaart, verdien je aan je gebruikers en behoud je 99% van de bytekosten. Registreer een clone voor 50 $ORBIS en begin met bouwen."
+  },
+  "exchangeWidget": {
+    "buy": "KOPEN",
+    "sell": "VERKOPEN",
+    "youSend": "U Verzendt",
+    "youGet": "U Ontvangt",
+    "disconnect": "Ontkoppelen",
+    "networkFee": "Netwerkkosten ≈ 0,00001 SOL",
+    "fetchingRate": "Koers ophalen…",
+    "waitingConfirmation": "Wachten op bevestiging…",
+    "connectWallet": "Portemonnee Verbinden",
+    "insufficientSol": "Onvoldoende SOL",
+    "insufficientOrbis": "Onvoldoende Orbis",
+    "buyBtn": "Kopen",
+    "sellBtn": "Verkopen",
+    "transactionConfirmed": "Transactie bevestigd.",
+    "viewOnSolscan": "Bekijk op Solscan",
+    "failedToConnect": "Verbinding portemonnee mislukt.",
+    "transactionFailed": "Transactie mislukt.",
+    "termsAgreement": "Door verbinding te maken gaat u akkoord met de Servicevoorwaarden"
+  }
+}

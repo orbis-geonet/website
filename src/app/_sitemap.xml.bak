@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <sitemap>
+        <loc>https://orbis.social/sitemaps/groups-sitemap.xml</loc>
+    </sitemap>
+    <sitemap>
+        <loc>https://orbis.social/sitemaps/places-1-sitemap.xml</loc>
+    </sitemap>
+    <sitemap>
+        <loc>https://orbis.social/sitemaps/places-2-sitemap.xml</loc>
+    </sitemap>
+    <sitemap>
+        <loc>https://orbis.social/sitemaps/places-sitemap.xml</loc>
+    </sitemap>
+    <sitemap>
+        <loc>https://orbis.social/sitemaps/posts-sitemap.xml</loc>
+    </sitemap>
+    <sitemap>
+        <loc>https://orbis.social/sitemaps/posts-1-sitemap.xml</loc>
+    </sitemap>
+    <sitemap>
+        <loc>https://orbis.social/sitemaps/posts-2-sitemap.xml</loc>
+    </sitemap>
+    <sitemap>
+        <loc>https://orbis.social/sitemaps/users-sitemap.xml</loc>
+    </sitemap>
+    
+</sitemapindex>

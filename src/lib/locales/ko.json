@@ -1,0 +1,171 @@
+{
+  "homePage": {
+    "heroHeading": "당신 지역의 디지털 부족",
+    "heroDescription": "당신 지역의 디지털 부족을 지도에 표시하기 위해 만들어진 소셜 네트워크. Orbis로 주변의 디지털 부족을 발견하세요.",
+    "feature1Text": "부족을 만들거나 참여하세요.",
+    "feature2Text": "부족과 함께 장소를 점령하고 지도에 부족의 상징으로 영역을 표시하세요.",
+    "feature3Text": "장소를 점령하여 다른 부족과 소유권을 경쟁하세요.",
+    "feature4Text": "한 지역에서 점령이 많을수록 그 주변의 부족 영역이 커집니다. 친구들에게 장소 점령을 권장하세요.",
+    "feature5Text": "부족과 함께 장소를 점령하고 지도에 부족의 상징으로 영역을 표시하세요.",
+    "feature6Text": "부족 내에 멤버 클럽을 만들고 Orbis 사용을 수익화하세요. 구독, 티켓, 혜택 등을 판매할 수 있습니다.",
+    "appStoreURL": "https://apps.apple.com/ca/app/orbis-tribos-digitais/id1453025529"
+  },
+  "groupPage": {
+    "metaTitle": "부족"
+  },
+  "placePage": {
+    "seeTimetables": "일정 보기",
+    "goToWebsite": "웹사이트로 이동",
+    "availableTimes": "이용 가능 시간",
+    "schedules": "일정",
+    "telephone": "전화번호",
+    "hoursUnavailable": "이 장소의 이용 시간은 미정",
+    "address": "주소",
+    "openInGoogleMaps": "구글 맵스에서 열기",
+    "groupsInThisPlace": "이 장소의 부족",
+    "placesTheGroupFrequents": "부족이 자주 방문하는 장소",
+    "connect": "연결",
+    "site": "사이트",
+    "metaTitle": "장소"
+  },
+  "common": {
+    "searchbarPlaceholder": "디지털 부족 검색",
+    "searchSuggestionHeading": "찾으시는 것",
+    "downloadHere": "여기서 다운로드",
+    "termsAndCondition": "이용약관",
+    "privacyPolicy": "개인정보 처리방침",
+    "home": "홈",
+    "group": "부족",
+    "groups": "부족",
+    "searchResults": "검색 결과",
+    "latestPosts": "최신 게시물",
+    "events": "이벤트",
+    "members": "멤버",
+    "whereIsIt": "어디에 있나요?",
+    "gallery": "갤러리",
+    "followers": "팔로워",
+    "followings": "팔로잉",
+    "place": "장소",
+    "goBack": "돌아가기",
+    "seeMore": "더 보기",
+    "seeLess": "접기",
+    "chooseOS": "운영체제 선택",
+    "goToHomepage": "홈페이지로 이동",
+    "map": "지도",
+    "navDeveloper": "개발자"
+  },
+  "errors": {
+    "noMatchingResultsFound": "일치하는 결과를 찾을 수 없습니다",
+    "groupHasNoMembers": "부족에 멤버가 없습니다",
+    "noPosts": "게시물이 없습니다",
+    "noPhotos": "사진이 없습니다",
+    "placeDoesntExist": "장소가 존재하지 않습니다",
+    "groupDoesntExist": "부족이 존재하지 않습니다",
+    "userDoesntExist": "사용자가 존재하지 않습니다",
+    "pageNotFound": "페이지를 찾을 수 없습니다",
+    "unableToFindRequestedResource": "요청한 리소스를 찾을 수 없습니다",
+    "groupHasNoPlace": "부족에 장소가 없습니다",
+    "noEvents": "이벤트가 없습니다",
+    "noComments": "댓글이 없습니다",
+    "noFollowings": "팔로잉 없음",
+    "noFollowers": "팔로워 없음",
+    "noGroups": "부족 없음"
+  },
+  "monitizeCommunityBanner": {
+    "heading": "부족 수익화",
+    "description": "부족 멤버에게 구독, 티켓, 혜택, 할부 패키지를 판매하세요.",
+    "buttonText": "자세히 보기",
+    "closableBannerHeading": "오퍼와 혜택을 만들어 부족을 수익화하세요.",
+    "closableBannerHighlightedText": "클릭하여 자세히 알아보세요."
+  },
+  "mapBanner": {
+    "heading": "당신 도시의 디지털 부족 지도 탐색",
+    "description": "당신 주변의 활기찬 디지털 커뮤니티를 발견하세요. 지도 열기를 클릭하여 지역의 부족을 탐색하고 연결하세요.",
+    "buttonText": "지도 열기"
+  },
+  "githubBanner": {
+    "heading": "탈중앙화 지도에 기여하기",
+    "description": "Orbis는 부족 지도가 Solana 블록체인에 기록되는 오픈 소스 프로젝트입니다. 나만의 Orbis 클론을 만들고 참여하세요.",
+    "buttonText": "GitHub"
+  },
+  "subscriptionBanner": {
+    "offerActivatedHeading": "커뮤니티 멤버 전용 특별 기회를 탐색하세요. 멤버 클럽 버튼을 클릭하세요.",
+    "offerActivatedButtonText": "멤버 클럽",
+    "offerInactiveHeading": "부족 멤버에게 구독, 티켓, 혜택, 할부 패키지를 판매하세요.",
+    "offerInactiveButtonText": "자세히 보기"
+  },
+  "paymentStatusPage": {
+    "successHeading": "결제 성공",
+    "successDescription": "이제 등록을 사용하여 Orbis를 즐길 수 있습니다. 확인 이메일이 발송됩니다. 앱을 다운로드하고 Orbis에 오신 것을 환영합니다!",
+    "errorHeading": "결제 실패",
+    "errorDescription": "걱정하지 마세요. 프로세스로 돌아가서 제공된 정보가 올바른지, 결제 방법이 적절한지 확인하세요.",
+    "buttonText": "홈페이지로 이동",
+    "paymentCannotBeCompletedErrorHeading": "결제를 완료할 수 없습니다.",
+    "paymentCannotBeCompletedErrorDescription": "이는 보통 이미 플랜에 가입한 경우에 발생합니다. 앱을 사용하여 오퍼를 업데이트하세요."
+  },
+  "paymentPage": {
+    "processingPayment": "결제 처리 중",
+    "payNow": "지금 결제"
+  },
+  "plansPage": {
+    "heading": "부족 오퍼",
+    "youWillBeCharged": "청구됩니다",
+    "onceAYear": "연 1회",
+    "onceAMonth": "매월",
+    "in": "로",
+    "annualInstallment": "연간 할부, 총",
+    "monthlyInstallment": "월간 할부, 총",
+    "perUnit": "단위당",
+    "buy": "구매",
+    "seeImages": "이미지 보기",
+    "month": "월",
+    "year": "년",
+    "metaTitle": "플랜"
+  },
+  "auth": {
+    "registerHeading": "개인 등록",
+    "name": "이름",
+    "email": "이메일",
+    "password": "비밀번호",
+    "register": "등록",
+    "loginHeading": "개인 로그인",
+    "login": "로그인"
+  },
+  "user": {
+    "metaTitle": "사용자"
+  },
+  "tos": {
+    "metaTitle": "이용약관"
+  },
+  "privacy": {
+    "metaTitle": "개인정보 처리방침"
+  },
+  "meta": {
+    "title": "Orbis 디지털 부족",
+    "description": "당신 지역의 디지털 부족을 지도에 표시하기 위해 만들어진 소셜 네트워크. Orbis로 주변의 디지털 부족을 발견하세요."
+  },
+  "exchange": {
+    "heroCopyHeading": "클론 운영자가 되세요. 자신만의 Orbis 노드를 운영하세요.",
+    "heroCopyBody": "Orbis GeoNet(지리적 인터넷)은 글로벌 소셜 지도를 구동하는 탈중앙화 프로토콜 레이어입니다. 모든 등록된 장소, 부족 및 영토는 Solana에 검증 가능한 해시로 저장됩니다 — 영구적이며 개방적이고, 어떤 단일 회사에도 소유되지 않습니다. 클론 운영자로서 공유 지도에서 독립적인 앱을 운영하고, 사용자로부터 수익을 얻으며, 바이트 수수료의 99%를 유지할 수 있습니다. 50 $ORBIS로 클론을 등록하고 구축을 시작하세요."
+  },
+  "exchangeWidget": {
+    "buy": "구매",
+    "sell": "판매",
+    "youSend": "보내는 금액",
+    "youGet": "받는 금액",
+    "disconnect": "연결 해제",
+    "networkFee": "네트워크 수수료 ≈ 0.00001 SOL",
+    "fetchingRate": "환율 불러오는 중…",
+    "waitingConfirmation": "확인 대기 중…",
+    "connectWallet": "지갑 연결",
+    "insufficientSol": "SOL 잔액 부족",
+    "insufficientOrbis": "Orbis 잔액 부족",
+    "buyBtn": "구매",
+    "sellBtn": "판매",
+    "transactionConfirmed": "거래가 확인되었습니다.",
+    "viewOnSolscan": "Solscan에서 보기",
+    "failedToConnect": "지갑 연결에 실패했습니다.",
+    "transactionFailed": "거래에 실패했습니다.",
+    "termsAgreement": "연결하면 서비스 약관에 동의하는 것입니다"
+  }
+}

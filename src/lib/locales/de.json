@@ -1,0 +1,171 @@
+{
+  "homePage": {
+    "heroHeading": "Digitale Stämme auf der Karte deiner Region",
+    "heroDescription": "Ein soziales Netzwerk, das entwickelt wurde, um digitale Stämme in deiner Umgebung zu kartieren. Mit Orbis kannst du digitale Stämme um dich herum entdecken.",
+    "feature1Text": "Erstelle oder tritt einem Stamm bei.",
+    "feature2Text": "Beanspruche Orte mit deinen Stämmen und markiere dein Territorium auf der Karte mit dem Symbol des Stammes.",
+    "feature3Text": "Konkurriere mit anderen Stämmen um den Besitz von Orten, indem du sie beanspruchst.",
+    "feature4Text": "Je mehr Beanspruchungen es in einer Region gibt, desto größer wird das Territorium des Stammes darum herum sein. Also sage deinen Freunden, Orte zu beanspruchen.",
+    "feature5Text": "Beanspruche Orte mit deinem Stamm und markiere dein Territorium auf der Karte mit dem Symbol des Stammes.",
+    "feature6Text": "Erstelle einen Mitgliederclub innerhalb deines Stammes und monetarisiere deine Nutzung von Orbis. Verkaufe Abonnements, Tickets, Vorteile und vieles mehr.",
+    "appStoreURL": "https://apps.apple.com/ca/app/orbis-tribos-digitais/id1453025529"
+  },
+  "groupPage": {
+    "metaTitle": "Stamm"
+  },
+  "placePage": {
+    "seeTimetables": "Zeitpläne ansehen",
+    "goToWebsite": "Zur Website gehen",
+    "availableTimes": "Verfügbare Zeiten",
+    "schedules": "Zeitpläne",
+    "telephone": "Telefon",
+    "hoursUnavailable": "Nicht verfügbare Stunden für diesen Ort",
+    "address": "Adresse",
+    "openInGoogleMaps": "In Google Maps öffnen",
+    "groupsInThisPlace": "Stämme an diesem Ort",
+    "placesTheGroupFrequents": "Orte, die der Stamm besucht",
+    "connect": "Verbinden",
+    "site": "Website",
+    "metaTitle": "Ort"
+  },
+  "common": {
+    "searchbarPlaceholder": "Digitale Stämme suchen",
+    "searchSuggestionHeading": "Suchst du nach",
+    "downloadHere": "Hier herunterladen",
+    "termsAndCondition": "Allgemeine Geschäftsbedingungen",
+    "privacyPolicy": "Datenschutzrichtlinie",
+    "home": "Startseite",
+    "group": "Stamm",
+    "groups": "Stämme",
+    "searchResults": "Suchergebnisse",
+    "latestPosts": "Neueste Beiträge",
+    "events": "Veranstaltungen",
+    "members": "Mitglieder",
+    "whereIsIt": "Wo ist es?",
+    "gallery": "Galerie",
+    "followers": "Follower",
+    "followings": "Folgt",
+    "place": "Ort",
+    "goBack": "Zurück",
+    "seeMore": "Mehr sehen",
+    "seeLess": "Weniger sehen",
+    "chooseOS": "Wähle dein Betriebssystem",
+    "goToHomepage": "Zur Startseite gehen",
+    "map": "Karte",
+    "navDeveloper": "Entwickler"
+  },
+  "errors": {
+    "noMatchingResultsFound": "Keine passenden Ergebnisse gefunden",
+    "groupHasNoMembers": "Der Stamm hat keine Mitglieder",
+    "noPosts": "Es gibt keine Beiträge",
+    "noPhotos": "Es gibt keine Fotos",
+    "placeDoesntExist": "Ort existiert nicht",
+    "groupDoesntExist": "Stamm existiert nicht",
+    "userDoesntExist": "Benutzer existiert nicht",
+    "pageNotFound": "Seite nicht gefunden",
+    "unableToFindRequestedResource": "Die angeforderte Ressource konnte nicht gefunden werden",
+    "groupHasNoPlace": "Der Stamm hat keine Orte",
+    "noEvents": "Es gibt keine Veranstaltungen",
+    "noComments": "Keine Kommentare",
+    "noFollowings": "Keine Followings",
+    "noFollowers": "Keine Follower",
+    "noGroups": "Keine Stämme"
+  },
+  "monitizeCommunityBanner": {
+    "heading": "Monetarisiere deinen Stamm",
+    "description": "Verkaufe Abonnements, Tickets, Vorteile und Ratenpakete an die Mitglieder deines Stammes.",
+    "buttonText": "Mehr erfahren",
+    "closableBannerHeading": "Monetarisiere deinen Stamm durch das Erstellen von Angeboten und Vorteilen.",
+    "closableBannerHighlightedText": "Klicke hier, um mehr zu erfahren."
+  },
+  "mapBanner": {
+    "heading": "Erkunde die Karte der digitalen Stämme in deiner Stadt",
+    "description": "Entdecke lebendige digitale Gemeinschaften in deiner Nähe. Klicke auf Karte öffnen, um zu navigieren und dich mit Stämmen in deiner Umgebung zu verbinden.",
+    "buttonText": "Karte öffnen"
+  },
+  "githubBanner": {
+    "heading": "Trage zur dezentralen Karte bei",
+    "description": "Orbis ist ein Open-Source-Projekt, bei dem die Stammeskarte auf der Solana-Blockchain aufgezeichnet wird. Erstelle deinen eigenen Orbis-Klon und mach mit.",
+    "buttonText": "GitHub"
+  },
+  "subscriptionBanner": {
+    "offerActivatedHeading": "Erkunde die exklusiven Möglichkeiten, die den Mitgliedern unserer Gemeinschaft zur Verfügung stehen. Klicke auf die Schaltfläche Mitgliederclub.",
+    "offerActivatedButtonText": "Mitgliederclub",
+    "offerInactiveHeading": "Verkaufe Abonnements, Tickets, Vorteile und Ratenpakete an die Mitglieder deines Stammes.",
+    "offerInactiveButtonText": "Mehr erfahren"
+  },
+  "paymentStatusPage": {
+    "successHeading": "Zahlung erfolgreich",
+    "successDescription": "Du kannst jetzt Orbis mit deiner Registrierung genießen. Du erhältst eine Bestätigungs-E-Mail, lade die App herunter und willkommen bei Orbis!",
+    "errorHeading": "Zahlung fehlgeschlagen",
+    "errorDescription": "Aber keine Sorge, gehe zurück im Prozess, überprüfe, ob die angegebenen Informationen korrekt sind oder ob die Zahlungsmethode geeignet ist.",
+    "buttonText": "Zur Startseite gehen",
+    "paymentCannotBeCompletedErrorHeading": "Zahlung konnte nicht abgeschlossen werden.",
+    "paymentCannotBeCompletedErrorDescription": "Dies passiert normalerweise, wenn du bereits einen Plan abonniert hast. Bitte nutze unsere App, um dein Angebot zu aktualisieren."
+  },
+  "paymentPage": {
+    "processingPayment": "Zahlung wird verarbeitet",
+    "payNow": "Jetzt bezahlen"
+  },
+  "plansPage": {
+    "heading": "Stammesangebote",
+    "youWillBeCharged": "Dir wird berechnet",
+    "onceAYear": "einmal im Jahr",
+    "onceAMonth": "jeden Monat",
+    "in": "In",
+    "annualInstallment": "jährlichen Raten, insgesamt",
+    "monthlyInstallment": "monatlichen Raten, insgesamt",
+    "perUnit": "Pro Einheit",
+    "buy": "Kaufen",
+    "seeImages": "Bilder ansehen",
+    "month": "Monat",
+    "year": "Jahr",
+    "metaTitle": "Pläne"
+  },
+  "auth": {
+    "registerHeading": "Persönliche Registrierung",
+    "name": "Name",
+    "email": "E-Mail",
+    "password": "Passwort",
+    "register": "Registrieren",
+    "loginHeading": "Persönlicher Login",
+    "login": "Anmelden"
+  },
+  "user": {
+    "metaTitle": "Benutzer"
+  },
+  "tos": {
+    "metaTitle": "Allgemeine Geschäftsbedingungen"
+  },
+  "privacy": {
+    "metaTitle": "Datenschutzrichtlinie"
+  },
+  "meta": {
+    "title": "Orbis Digitale Stämme",
+    "description": "Ein soziales Netzwerk, das entwickelt wurde, um digitale Stämme in deiner Umgebung zu kartieren. Mit Orbis kannst du digitale Stämme um dich herum entdecken."
+  },
+  "exchange": {
+    "heroCopyHeading": "Werden Sie Clone-Betreiber. Betreiben Sie Ihren eigenen Orbis-Knoten.",
+    "heroCopyBody": "Orbis GeoNet (Geographical Internet) ist die dezentrale Protokollschicht, die eine globale soziale Karte antreibt. Jeder beanspruchte Ort, jede Community und jedes Gebiet wird als verifizierbarer Hash auf Solana gespeichert — dauerhaft, offen und keinem einzelnen Unternehmen gehörend. Als Clone-Betreiber betreibst du deine eigene unabhängige App auf der gemeinsamen Karte, verdienst an deinen Nutzern und behältst 99 % der Byte-Gebühren. Registriere einen Clone für 50 $ORBIS und beginne zu bauen."
+  },
+  "exchangeWidget": {
+    "buy": "KAUFEN",
+    "sell": "VERKAUFEN",
+    "youSend": "Sie Senden",
+    "youGet": "Sie Erhalten",
+    "disconnect": "Trennen",
+    "networkFee": "Netzwerkgebühr ≈ 0,00001 SOL",
+    "fetchingRate": "Kurs wird abgerufen…",
+    "waitingConfirmation": "Warte auf Bestätigung…",
+    "connectWallet": "Wallet Verbinden",
+    "insufficientSol": "Unzureichend SOL",
+    "insufficientOrbis": "Unzureichend Orbis",
+    "buyBtn": "Kaufen",
+    "sellBtn": "Verkaufen",
+    "transactionConfirmed": "Transaktion bestätigt.",
+    "viewOnSolscan": "Auf Solscan ansehen",
+    "failedToConnect": "Wallet-Verbindung fehlgeschlagen.",
+    "transactionFailed": "Transaktion fehlgeschlagen.",
+    "termsAgreement": "Mit der Verbindung stimmen Sie den Nutzungsbedingungen zu"
+  }
+}

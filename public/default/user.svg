@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="76" height="75.999" viewBox="0 0 76 75.999">
+    <defs>
+        <linearGradient id="linear-gradient" x1=".185" y1=".256" x2=".843" y2=".908" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#434343"/>
+            <stop offset="1"/>
+        </linearGradient>
+        <style>
+            .cls-2{fill:#7a8fa6}
+        </style>
+    </defs>
+    <g id="user" transform="translate(0 -.001)">
+        <path id="União_1" data-name="União 1" d="M0 38a38 38 0 1 1 38 38A38 38 0 0 1 0 38z" transform="translate(0 .001)" style="fill:url(#linear-gradient)"/>
+        <path id="Caminho_2315" data-name="Caminho 2315" class="cls-2" d="m197.7 60-7.486 11.948L197.7 83.9a11.948 11.948 0 1 0 0-23.9z" transform="translate(-159.845 -43.565)"/>
+        <path id="Caminho_2316" data-name="Caminho 2316" class="cls-2" d="M151 71.948A11.948 11.948 0 0 0 162.948 83.9V60A11.948 11.948 0 0 0 151 71.948z" transform="translate(-124.597 -43.565)"/>
+        <path id="Caminho_2317" data-name="Caminho 2317" class="cls-2" d="M222.018 304.033a11.958 11.958 0 0 0-8.95-4.033h-10.241L196 308.648l6.827 8.648a22.364 22.364 0 0 0 19.4-11.288l.6-1.061z" transform="translate(-165.323 -257.864)"/>
+        <path id="Caminho_2318" data-name="Caminho 2318" class="cls-2" d="M90 300a11.958 11.958 0 0 0-8.95 4.033l-.809.914.6 1.061a22.363 22.363 0 0 0 19.4 11.288V300z" transform="translate(-61.574 -257.864)"/>
+    </g>
+</svg>

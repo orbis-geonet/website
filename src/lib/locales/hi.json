@@ -1,0 +1,171 @@
+{
+    "homePage": {
+        "heroHeading": "आपके क्षेत्र में डिजिटल जनजातियां",
+        "heroDescription": "आपके क्षेत्र में डिजिटल जनजातियों को मैप करने के लिए बनाई गई सोशल नेटवर्क। Orbis के साथ, आप अपने आस-पास की डिजिटल जनजातियों को खोज सकते हैं।",
+        "feature1Text": "जनजाति बनाएं या उसमें शामिल हों।",
+        "feature2Text": "अपनी जनजातियों के साथ स्थानों पर दावा करें और नक्शे पर जनजाति के प्रतीक से अपना क्षेत्र चिह्नित करें।",
+        "feature3Text": "स्थानों पर दावा करके अन्य जनजातियों के साथ स्वामित्व के लिए प्रतिस्पर्धा करें।",
+        "feature4Text": "एक क्षेत्र में जितने अधिक दावे होंगे, उसके आस-पास की जनजाति का क्षेत्र उतना ही बड़ा होगा। तो अपने दोस्तों को स्थानों पर दावा करने के लिए कहें।",
+        "feature5Text": "अपनी जनजाति के साथ स्थानों पर दावा करें और नक्शे पर जनजाति के प्रतीक से अपना क्षेत्र चिह्नित करें।",
+        "feature6Text": "अपनी जनजाति के भीतर सदस्य क्लब बनाएं और Orbis के उपयोग से आय अर्जित करें। सदस्यता, टिकट, लाभ और बहुत कुछ बेचें।",
+        "appStoreURL": "https://apps.apple.com/ca/app/orbis-tribos-digitais/id1453025529"
+    },
+    "groupPage": {
+        "metaTitle": "जनजाति"
+    },
+    "placePage": {
+        "seeTimetables": "समय सारिणी देखें",
+        "goToWebsite": "वेबसाइट पर जाएं",
+        "availableTimes": "उपलब्ध समय",
+        "schedules": "समय सारिणी",
+        "telephone": "टेलीफोन",
+        "hoursUnavailable": "इस स्थान के लिए समय उपलब्ध नहीं है",
+        "address": "पता",
+        "openInGoogleMaps": "Google मैप्स में खोलें",
+        "groupsInThisPlace": "इस स्थान की जनजातियां",
+        "placesTheGroupFrequents": "जनजाति जिन स्थानों पर जाती है",
+        "connect": "कनेक्ट",
+        "site": "साइट",
+        "metaTitle": "स्थान"
+    },
+    "common": {
+        "searchbarPlaceholder": "डिजिटल जनजातियां खोजें",
+        "searchSuggestionHeading": "क्या आप ढूंढ रहे हैं",
+        "downloadHere": "यहां डाउनलोड करें",
+        "termsAndCondition": "नियम और शर्तें",
+        "privacyPolicy": "गोपनीयता नीति",
+        "home": "होम",
+        "group": "जनजाति",
+        "groups": "जनजातियां",
+        "searchResults": "खोज परिणाम",
+        "latestPosts": "नवीनतम पोस्ट",
+        "events": "कार्यक्रम",
+        "members": "सदस्य",
+        "whereIsIt": "यह कहाँ है?",
+        "gallery": "गैलरी",
+        "followers": "फॉलोअर्स",
+        "followings": "फॉलोइंग",
+        "place": "स्थान",
+        "goBack": "वापस जाएं",
+        "seeMore": "और देखें",
+        "seeLess": "कम देखें",
+        "chooseOS": "ऑपरेटिंग सिस्टम चुनें",
+        "goToHomepage": "होमपेज पर जाएं",
+        "map": "नक्शा",
+        "navDeveloper": "डेवलपर"
+    },
+    "errors": {
+        "noMatchingResultsFound": "कोई मिलते-जुलते परिणाम नहीं मिले",
+        "groupHasNoMembers": "जनजाति में कोई सदस्य नहीं है",
+        "noPosts": "कोई पोस्ट नहीं हैं",
+        "noPhotos": "कोई फोटो नहीं हैं",
+        "placeDoesntExist": "स्थान मौजूद नहीं है",
+        "groupDoesntExist": "जनजाति मौजूद नहीं है",
+        "userDoesntExist": "उपयोगकर्ता मौजूद नहीं है",
+        "pageNotFound": "पृष्ठ नहीं मिला",
+        "unableToFindRequestedResource": "अनुरोधित संसाधन नहीं मिल सका",
+        "groupHasNoPlace": "जनजाति के पास कोई स्थान नहीं है",
+        "noEvents": "कोई कार्यक्रम नहीं हैं",
+        "noComments": "कोई टिप्पणी नहीं है",
+        "noFollowings": "कोई फॉलोइंग नहीं है",
+        "noFollowers": "कोई फॉलोअर्स नहीं हैं",
+        "noGroups": "कोई जनजाति नहीं है"
+    },
+    "monitizeCommunityBanner": {
+        "heading": "अपनी जनजाति से आय अर्जित करें",
+        "description": "अपनी जनजाति के सदस्यों को सदस्यता, टिकट, लाभ और किश्त योजनाएं बेचें।",
+        "buttonText": "और जानें",
+        "closableBannerHeading": "ऑफर और लाभ बनाकर अपनी जनजाति से आय अर्जित करें।",
+        "closableBannerHighlightedText": "और जानने के लिए यहां क्लिक करें।"
+    },
+    "mapBanner": {
+        "heading": "अपने शहर में डिजिटल जनजातियों का नक्शा एक्सप्लोर करें",
+        "description": "अपने आस-पास की जीवंत डिजिटल समुदायों को खोजें। अपने क्षेत्र की जनजातियों को नेविगेट और कनेक्ट करने के लिए नक्शा खोलें पर क्लिक करें।",
+        "buttonText": "नक्शा खोलें"
+    },
+    "githubBanner": {
+        "heading": "विकेंद्रीकृत मानचित्र में योगदान दें",
+        "description": "Orbis एक ओपन सोर्स प्रोजेक्ट है जहां जनजातीय मानचित्र Solana ब्लॉकचेन पर दर्ज किया जाता है। अपना स्वयं का Orbis क्लोन बनाएं और भाग लें।",
+        "buttonText": "GitHub"
+    },
+    "subscriptionBanner": {
+        "offerActivatedHeading": "हमारे समुदाय के सदस्यों के लिए उपलब्ध विशेष अवसरों का पता लगाएं। सदस्य क्लब बटन पर क्लिक करें।",
+        "offerActivatedButtonText": "सदस्य क्लब",
+        "offerInactiveHeading": "अपनी जनजाति के सदस्यों को सदस्यता, टिकट, लाभ और किश्त योजनाएं बेचें।",
+        "offerInactiveButtonText": "और जानें"
+    },
+    "paymentStatusPage": {
+        "successHeading": "भुगतान सफल",
+        "successDescription": "अब आप अपने पंजीकरण का उपयोग करके Orbis का आनंद ले सकते हैं। आपको एक पुष्टि ईमेल प्राप्त होगा, ऐप डाउनलोड करें, और Orbis में आपका स्वागत है!",
+        "errorHeading": "भुगतान विफल",
+        "errorDescription": "लेकिन चिंता न करें, प्रक्रिया में वापस जाएं, जांचें कि दी गई जानकारी सही है या भुगतान विधि उपयुक्त है।",
+        "buttonText": "होमपेज पर जाएं",
+        "paymentCannotBeCompletedErrorHeading": "भुगतान पूरा नहीं किया जा सका।",
+        "paymentCannotBeCompletedErrorDescription": "यह आमतौर पर तब होता है जब आप पहले से ही योजना में सदस्यता ले चुके हैं। कृपया अपना ऑफर अपडेट करने के लिए हमारा ऐप उपयोग करें।"
+    },
+    "paymentPage": {
+        "processingPayment": "भुगतान प्रोसेसिंग",
+        "payNow": "अभी भुगतान करें"
+    },
+    "plansPage": {
+        "heading": "जनजाति ऑफर",
+        "youWillBeCharged": "आपसे शुल्क लिया जाएगा",
+        "onceAYear": "प्रति वर्ष एक बार",
+        "onceAMonth": "प्रति माह",
+        "in": "में",
+        "annualInstallment": "वार्षिक किश्तें, कुल",
+        "monthlyInstallment": "मासिक किश्तें, कुल",
+        "perUnit": "प्रति इकाई",
+        "buy": "खरीदें",
+        "seeImages": "छवियां देखें",
+        "month": "माह",
+        "year": "वर्ष",
+        "metaTitle": "योजनाएं"
+    },
+    "auth": {
+        "registerHeading": "व्यक्तिगत पंजीकरण",
+        "name": "नाम",
+        "email": "ईमेल",
+        "password": "पासवर्ड",
+        "register": "पंजीकरण",
+        "loginHeading": "व्यक्तिगत लॉगिन",
+        "login": "लॉगिन"
+    },
+    "user": {
+        "metaTitle": "उपयोगकर्ता"
+    },
+    "tos": {
+        "metaTitle": "नियम और शर्तें"
+    },
+    "privacy": {
+        "metaTitle": "गोपनीयता नीति"
+    },
+    "meta": {
+        "title": "Orbis डिजिटल जनजातियां",
+        "description": "आपके क्षेत्र में डिजिटल जनजातियों को मैप करने के लिए बनाई गई सोशल नेटवर्क। Orbis के साथ, आप अपने आस-पास की डिजिटल जनजातियों को खोज सकते हैं।"
+    },
+    "exchange": {
+        "heroCopyHeading": "क्लोन ऑपरेटर बनें। अपना खुद का Orbis नोड चलाएं।",
+        "heroCopyBody": "Orbis GeoNet (भौगोलिक इंटरनेट) एक विकेंद्रीकृत प्रोटोकॉल लेयर है जो एक वैश्विक सोशल मैप को संचालित करती है। हर दावा किया गया स्थान, जनजाति और क्षेत्र Solana पर एक सत्यापन योग्य हैश के रूप में संग्रहीत होता है — स्थायी, खुला और किसी एक कंपनी के स्वामित्व में नहीं। एक क्लोन ऑपरेटर के रूप में, आप साझा मानचित्र पर अपना स्वतंत्र ऐप चलाते हैं, अपने उपयोगकर्ताओं से कमाते हैं और बाइट शुल्क का 99% अपने पास रखते हैं। 50 $ORBIS में एक क्लोन रजिस्टर करें और निर्माण शुरू करें।"
+    },
+    "exchangeWidget": {
+        "buy": "खरीदें",
+        "sell": "बेचें",
+        "youSend": "आप भेजते हैं",
+        "youGet": "आप पाते हैं",
+        "disconnect": "डिस्कनेक्ट",
+        "networkFee": "नेटवर्क शुल्क ≈ 0.00001 SOL",
+        "fetchingRate": "दर प्राप्त हो रही है…",
+        "waitingConfirmation": "पुष्टि की प्रतीक्षा…",
+        "connectWallet": "वॉलेट कनेक्ट करें",
+        "insufficientSol": "अपर्याप्त SOL",
+        "insufficientOrbis": "अपर्याप्त Orbis",
+        "buyBtn": "खरीदें",
+        "sellBtn": "बेचें",
+        "transactionConfirmed": "लेनदेन की पुष्टि हो गई।",
+        "viewOnSolscan": "Solscan पर देखें",
+        "failedToConnect": "वॉलेट कनेक्ट करने में विफल।",
+        "transactionFailed": "लेनदेन विफल।",
+        "termsAgreement": "कनेक्ट करके आप सेवा की शर्तों से सहमत होते हैं"
+    }
+}

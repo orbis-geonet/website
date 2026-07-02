@@ -1,0 +1,171 @@
+{
+  "homePage": {
+    "heroHeading": "Bölgenizin haritasında dijital kabileler",
+    "heroDescription": "Bölgenizdeki dijital kabileleri haritalamak için oluşturulmuş bir sosyal ağ. Orbis ile etrafınızdaki dijital kabileleri keşfedebilirsiniz.",
+    "feature1Text": "Kabile oluşturun veya katılın.",
+    "feature2Text": "Kabilelerinizle birlikte mekanları sahiplenerek haritada kabile sembolüyle bölgenizi işaretleyin.",
+    "feature3Text": "Mekanları sahiplenerek diğer kabilelerle sahiplik için rekabet edin.",
+    "feature4Text": "Bir bölgede ne kadar çok mekan sahiplenilirse, etrafındaki kabile bölgesi o kadar büyük olur. Arkadaşlarınıza mekan sahiplenmelerini söyleyin.",
+    "feature5Text": "Kabilenizle birlikte mekanları sahiplenerek haritada kabile sembolüyle bölgenizi işaretleyin.",
+    "feature6Text": "Kabilenizin içinde bir üye kulübü oluşturun ve Orbis kullanımınızdan para kazanın. Abonelikler, biletler, avantajlar ve daha fazlasını satın.",
+    "appStoreURL": "https://apps.apple.com/ca/app/orbis-tribos-digitais/id1453025529"
+  },
+  "groupPage": {
+    "metaTitle": "Kabile"
+  },
+  "placePage": {
+    "seeTimetables": "Programları görüntüle",
+    "goToWebsite": "Web sitesine git",
+    "availableTimes": "Müsait saatler",
+    "schedules": "Programlar",
+    "telephone": "Telefon",
+    "hoursUnavailable": "Bu konum için müsait saat yok",
+    "address": "Adres",
+    "openInGoogleMaps": "Google Haritalar'da aç",
+    "groupsInThisPlace": "Bu mekandaki kabileler",
+    "placesTheGroupFrequents": "Kabilenin sık gittiği yerler",
+    "connect": "Bağlan",
+    "site": "site",
+    "metaTitle": "Mekan"
+  },
+  "common": {
+    "searchbarPlaceholder": "Dijital kabileleri ara",
+    "searchSuggestionHeading": "Aradığınız",
+    "downloadHere": "Buradan indir",
+    "termsAndCondition": "Şartlar ve koşullar",
+    "privacyPolicy": "Gizlilik politikası",
+    "home": "Ana sayfa",
+    "group": "Kabile",
+    "groups": "Kabileler",
+    "searchResults": "Arama sonuçları",
+    "latestPosts": "Son gönderiler",
+    "events": "Etkinlikler",
+    "members": "Üyeler",
+    "whereIsIt": "Nerede?",
+    "gallery": "Galeri",
+    "followers": "Takipçiler",
+    "followings": "Takip edilenler",
+    "place": "Mekan",
+    "goBack": "Geri dön",
+    "seeMore": "Daha fazla gör",
+    "seeLess": "Daha az gör",
+    "chooseOS": "İşletim sistemini seç",
+    "goToHomepage": "Ana sayfaya git",
+    "map": "Harita",
+    "navDeveloper": "Geliştirici"
+  },
+  "errors": {
+    "noMatchingResultsFound": "Eşleşen sonuç bulunamadı",
+    "groupHasNoMembers": "Kabilenin üyesi yok",
+    "noPosts": "Gönderi yok",
+    "noPhotos": "Fotoğraf yok",
+    "placeDoesntExist": "Mekan mevcut değil",
+    "groupDoesntExist": "Kabile mevcut değil",
+    "userDoesntExist": "Kullanıcı mevcut değil",
+    "pageNotFound": "Sayfa bulunamadı",
+    "unableToFindRequestedResource": "İstenen kaynak bulunamadı",
+    "groupHasNoPlace": "Kabilenin mekanı yok",
+    "noEvents": "Etkinlik yok",
+    "noComments": "Yorum yok",
+    "noFollowings": "Takip edilen yok",
+    "noFollowers": "Takipçi yok",
+    "noGroups": "Kabile yok"
+  },
+  "monitizeCommunityBanner": {
+    "heading": "Kabilenizden para kazanın",
+    "description": "Kabile üyelerinize abonelikler, biletler, avantajlar ve taksitli paketler satın.",
+    "buttonText": "Daha fazla bilgi",
+    "closableBannerHeading": "Teklifler ve avantajlar oluşturarak kabilenizden para kazanın.",
+    "closableBannerHighlightedText": "Daha fazla bilgi için buraya tıklayın."
+  },
+  "mapBanner": {
+    "heading": "Şehrinizdeki dijital kabilelerin haritasını keşfedin",
+    "description": "Etrafınızdaki canlı dijital toplulukları bulun. Bölgenizdeki kabileleri gezmek ve bağlanmak için Haritayı Aç'a tıklayın.",
+    "buttonText": "Haritayı Aç"
+  },
+  "githubBanner": {
+    "heading": "Merkeziyetsiz Haritaya Katkıda Bulunun",
+    "description": "Orbis, kabile haritasının Solana blok zincirinde kaydedildiği açık kaynaklı bir projedir. Kendi Orbis klonunuzu oluşturun ve katılın.",
+    "buttonText": "GitHub"
+  },
+  "subscriptionBanner": {
+    "offerActivatedHeading": "Topluluğumuzun üyeleri için mevcut özel fırsatları keşfedin. Üye Kulübü düğmesine tıklayın.",
+    "offerActivatedButtonText": "Üye Kulübü",
+    "offerInactiveHeading": "Kabile üyelerinize abonelikler, biletler, avantajlar ve taksitli paketler satın.",
+    "offerInactiveButtonText": "Daha fazla bilgi"
+  },
+  "paymentStatusPage": {
+    "successHeading": "Ödeme başarılı",
+    "successDescription": "Artık kaydınızı kullanarak Orbis'in keyfini çıkarabilirsiniz. Bir onay e-postası alacaksınız, uygulamayı indirin ve Orbis'e hoş geldiniz!",
+    "errorHeading": "Ödeme başarısız",
+    "errorDescription": "Ama endişelenmeyin, sürece geri dönün, verilen bilgilerin doğru olup olmadığını veya ödeme yönteminin uygun olup olmadığını kontrol edin.",
+    "buttonText": "Ana sayfaya git",
+    "paymentCannotBeCompletedErrorHeading": "Ödeme tamamlanamadı.",
+    "paymentCannotBeCompletedErrorDescription": "Bu genellikle zaten plana abone olduğunuzda olur. Lütfen teklifinizi güncellemek için uygulamamızı kullanın."
+  },
+  "paymentPage": {
+    "processingPayment": "Ödeme işleniyor",
+    "payNow": "Şimdi öde"
+  },
+  "plansPage": {
+    "heading": "Kabile teklifleri",
+    "youWillBeCharged": "Ücretlendirileceksiniz",
+    "onceAYear": "yılda bir kez",
+    "onceAMonth": "aylık",
+    "in": "içinde",
+    "annualInstallment": "yıllık taksitler, toplam",
+    "monthlyInstallment": "aylık taksitler, toplam",
+    "perUnit": "birim başına",
+    "buy": "Satın al",
+    "seeImages": "görselleri gör",
+    "month": "ay",
+    "year": "yıl",
+    "metaTitle": "Planlar"
+  },
+  "auth": {
+    "registerHeading": "Kişisel kayıt",
+    "name": "İsim",
+    "email": "E-posta",
+    "password": "Şifre",
+    "register": "Kayıt ol",
+    "loginHeading": "Kişisel giriş",
+    "login": "Giriş yap"
+  },
+  "user": {
+    "metaTitle": "Kullanıcı"
+  },
+  "tos": {
+    "metaTitle": "Şartlar ve koşullar"
+  },
+  "privacy": {
+    "metaTitle": "Gizlilik politikası"
+  },
+  "meta": {
+    "title": "Orbis Dijital Kabileler",
+    "description": "Bölgenizdeki dijital kabileleri haritalamak için oluşturulmuş bir sosyal ağ. Orbis ile etrafınızdaki dijital kabileleri keşfedebilirsiniz."
+  },
+  "exchange": {
+    "heroCopyHeading": "Klon operatörü olun. Kendi Orbis düğümünüzü çalıştırın.",
+    "heroCopyBody": "Orbis GeoNet (Coğrafi İnternet), küresel bir sosyal haritayı güçlendiren merkeziyetsiz bir protokol katmanıdır. Talep edilen her yer, kabile ve bölge Solana üzerinde doğrulanabilir bir hash olarak saklanır — kalıcıdır, açıktır ve tek bir şirkete ait değildir. Bir klon operatörü olarak, paylaşılan harita üzerinde kendi bağımsız uygulamanızı çalıştırır, kullanıcılarınızdan gelir elde eder ve bayt ücretlerinin %99’unu elinizde tutarsınız. 50 $ORBIS karşılığında bir klon kaydedin ve oluşturmaya başlayın."
+  },
+  "exchangeWidget": {
+    "buy": "SATIN AL",
+    "sell": "SAT",
+    "youSend": "Gönderdiğiniz",
+    "youGet": "Aldığınız",
+    "disconnect": "Bağlantıyı Kes",
+    "networkFee": "Ağ ücreti ≈ 0,00001 SOL",
+    "fetchingRate": "Kur getiriliyor…",
+    "waitingConfirmation": "Onay bekleniyor…",
+    "connectWallet": "Cüzdan Bağla",
+    "insufficientSol": "Yetersiz SOL",
+    "insufficientOrbis": "Yetersiz Orbis",
+    "buyBtn": "Satın Al",
+    "sellBtn": "Sat",
+    "transactionConfirmed": "İşlem onaylandı.",
+    "viewOnSolscan": "Solscan'da Görüntüle",
+    "failedToConnect": "Cüzdan bağlantısı başarısız.",
+    "transactionFailed": "İşlem başarısız.",
+    "termsAgreement": "Bağlanarak Hizmet Şartlarını kabul etmiş olursunuz"
+  }
+}

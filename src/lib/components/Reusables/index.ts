@@ -1,0 +1,22 @@
+import dynamic from "next/dynamic";
+
+export { default as CalltoAction } from "./cta.component";
+export { default as ScrollBtn } from "./scroll.component";
+export { default as SubscribeBanner } from "./subscribe-banner.component";
+export { default as SingleTabLink } from "./single-tablink.component";
+export { default as StatComponent } from "./stat.component";
+export { default as DownloadHereButton } from "./downloadherebutton.component";
+export { default as Rating } from "./rating.component";
+export { default as Comment } from "./comment.component";
+export { default as IconWithPopup } from "./iconwithpopup.component";
+export { default as FixedDownloadBar } from "./fixeddownloadbar.component";
+export { default as GalleryImage } from "./galleryimage.component";
+export { default as ScrollToTop } from "./scrolltotop.component";
+export { default as Image } from "./image.component";
+export { default as Video } from "./video.component";
+export { default as Spinner } from "./spinner.component";
+export { default as LinkPreviewer } from "./linkpreviewer.component";
+export { default as Noexistence } from "./noexistence.component";
+export { default as TextWithClickableLink } from "./textwithlink.component";
+export { default as MapBanner } from "./map-banner.component";
+export const LoadingComponent = dynamic(() => import("./loading.component"));

@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx tsc *)",
+      "Bash(npm install *)",
+      "Bash(node -e \"const m = require\\('@solana/spl-account-compression'\\); console.log\\(Object.keys\\(m\\).slice\\(0,5\\)\\)\")",
+      "Bash(node -e \"const p = require\\('./node_modules/@solana/spl-account-compression/package.json'\\); console.log\\(JSON.stringify\\(p.exports, null, 2\\)\\)\")",
+      "Bash(npm show *)",
+      "Bash(node -e \"const d=require\\('fs'\\).readFileSync\\('/dev/stdin','utf8'\\); const v=JSON.parse\\(d\\); console.log\\(v.slice\\(-5\\).join\\('\\\\n'\\)\\)\")",
+      "Bash(node -e \"const m = require\\('@solana/spl-account-compression'\\); console.log\\(typeof m.ConcurrentMerkleTreeAccount, Object.keys\\(m\\).slice\\(0,8\\).join\\(', '\\)\\)\")",
+      "Bash(node -e \"const m = require\\('@solana/spl-account-compression'\\); const proto = m.ConcurrentMerkleTreeAccount.prototype; console.log\\(Object.getOwnPropertyNames\\(proto\\).join\\('\\\\n'\\)\\)\")",
+      "Bash(node -e \"const m = require\\('@solana/spl-account-compression'\\); const src = require\\('fs'\\).readFileSync\\('./node_modules/@solana/spl-account-compression/dist/cjs/index.js','utf8'\\); const match = src.match\\(/rightMost[^;]{0,200}/g\\); console.log\\(match ? match.slice\\(0,3\\).join\\('\\\\n'\\) : 'none'\\)\")",
+      "Bash(node -e \"const m = require\\('@solana/spl-account-compression'\\); const src = require\\('fs'\\).readFileSync\\('./node_modules/@solana/spl-account-compression/dist/cjs/index.js','utf8'\\); console.log\\(src.length, 'bytes'\\); const lines = src.split\\('\\\\n'\\).filter\\(l => l.includes\\('activeIndex'\\) || l.includes\\('sequenceNumber'\\) || l.includes\\('rightMost'\\)\\); console.log\\(lines.slice\\(0,5\\).join\\('\\\\n'\\)\\)\")",
+      "Bash(node -e \"process.stdin.resume\\(\\);let d='';process.stdin.on\\('data',c=>d+=c\\);process.stdin.on\\('end',\\(\\)=>{const p=JSON.parse\\(d\\);console.log\\(p.types,p.main\\)}\\)\")"
+    ]
+  }
+}

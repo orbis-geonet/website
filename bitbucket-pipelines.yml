@@ -1,0 +1,15 @@
+image: node:18
+
+pipelines:
+  branches:
+    main:
+      - step:
+          name: Build
+          deployment: production
+          script:
+            - echo "Deploying to production"
+            - pipe: atlassian/ssh-run:0.2.2
+              variables:
+                SSH_USER: $SSH_USER
+                SERVER: $SSH_REMOTE
+                COMMAND: "REMOTE_PATH=${REMOTE_PATH} bash ${REMOTE_PATH}/scripts/build.sh"

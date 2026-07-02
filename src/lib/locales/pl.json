@@ -1,0 +1,171 @@
+{
+  "homePage": {
+    "heroHeading": "Plemiona cyfrowe na mapie Twojego regionu",
+    "heroDescription": "Sieć społecznościowa stworzona do mapowania plemion cyfrowych w Twojej okolicy. Z Orbis możesz odkrywać plemiona cyfrowe wokół siebie.",
+    "feature1Text": "Utwórz lub dołącz do plemienia.",
+    "feature2Text": "Zajmuj miejsca ze swoimi plemionami i zaznaczaj swoje terytorium na mapie symbolem plemienia.",
+    "feature3Text": "Rywalizuj z innymi plemionami o własność miejsc poprzez ich zajmowanie.",
+    "feature4Text": "Im więcej zajętych miejsc w regionie, tym większe terytorium plemienia wokół niego. Powiedz więc znajomym, żeby zajmowali miejsca.",
+    "feature5Text": "Zajmuj miejsca ze swoim plemieniem i zaznaczaj swoje terytorium na mapie symbolem plemienia.",
+    "feature6Text": "Utwórz klub członków w swoim plemieniu i zarabiaj na korzystaniu z Orbis. Sprzedawaj subskrypcje, bilety, korzyści i więcej.",
+    "appStoreURL": "https://apps.apple.com/ca/app/orbis-tribos-digitais/id1453025529"
+  },
+  "groupPage": {
+    "metaTitle": "Plemię"
+  },
+  "placePage": {
+    "seeTimetables": "Zobacz harmonogramy",
+    "goToWebsite": "Przejdź do strony",
+    "availableTimes": "Dostępne godziny",
+    "schedules": "Harmonogramy",
+    "telephone": "Telefon",
+    "hoursUnavailable": "Brak dostępnych godzin dla tej lokalizacji",
+    "address": "Adres",
+    "openInGoogleMaps": "Otwórz w Google Maps",
+    "groupsInThisPlace": "Plemiona w tym miejscu",
+    "placesTheGroupFrequents": "Miejsca, które plemię często odwiedza",
+    "connect": "Połącz",
+    "site": "strona",
+    "metaTitle": "Miejsce"
+  },
+  "common": {
+    "searchbarPlaceholder": "Szukaj plemion cyfrowych",
+    "searchSuggestionHeading": "Czy szukasz",
+    "downloadHere": "Pobierz tutaj",
+    "termsAndCondition": "Warunki i zasady",
+    "privacyPolicy": "Polityka prywatności",
+    "home": "Strona główna",
+    "group": "Plemię",
+    "groups": "Plemiona",
+    "searchResults": "Wyniki wyszukiwania",
+    "latestPosts": "Najnowsze posty",
+    "events": "Wydarzenia",
+    "members": "Członkowie",
+    "whereIsIt": "Gdzie to jest?",
+    "gallery": "Galeria",
+    "followers": "Obserwujący",
+    "followings": "Obserwowani",
+    "place": "Miejsce",
+    "goBack": "Wróć",
+    "seeMore": "Zobacz więcej",
+    "seeLess": "Zobacz mniej",
+    "chooseOS": "Wybierz system operacyjny",
+    "goToHomepage": "Przejdź do strony głównej",
+    "map": "Mapa",
+    "navDeveloper": "Deweloper"
+  },
+  "errors": {
+    "noMatchingResultsFound": "Nie znaleziono pasujących wyników",
+    "groupHasNoMembers": "Plemię nie ma członków",
+    "noPosts": "Brak postów",
+    "noPhotos": "Brak zdjęć",
+    "placeDoesntExist": "Miejsce nie istnieje",
+    "groupDoesntExist": "Plemię nie istnieje",
+    "userDoesntExist": "Użytkownik nie istnieje",
+    "pageNotFound": "Strona nie znaleziona",
+    "unableToFindRequestedResource": "Nie można znaleźć żądanego zasobu",
+    "groupHasNoPlace": "Plemię nie ma miejsc",
+    "noEvents": "Brak wydarzeń",
+    "noComments": "Brak komentarzy",
+    "noFollowings": "Brak obserwowanych",
+    "noFollowers": "Brak obserwujących",
+    "noGroups": "Brak plemion"
+  },
+  "monitizeCommunityBanner": {
+    "heading": "Zarabiaj na swoim plemieniu",
+    "description": "Sprzedawaj subskrypcje, bilety, korzyści i pakiety ratalne członkom swojego plemienia.",
+    "buttonText": "Dowiedz się więcej",
+    "closableBannerHeading": "Zarabiaj na swoim plemieniu tworząc oferty i korzyści.",
+    "closableBannerHighlightedText": "Kliknij tutaj, aby dowiedzieć się więcej."
+  },
+  "mapBanner": {
+    "heading": "Odkryj mapę plemion cyfrowych w swoim mieście",
+    "description": "Znajdź tętniące życiem społeczności cyfrowe w swojej okolicy. Kliknij Otwórz mapę, aby nawigować i łączyć się z plemionami w swoim regionie.",
+    "buttonText": "Otwórz mapę"
+  },
+  "githubBanner": {
+    "heading": "Wspieraj zdecentralizowaną mapę",
+    "description": "Orbis to projekt open source, w którym mapa plemion jest zapisywana na blockchainie Solana. Stwórz własny klon Orbis i weź udział.",
+    "buttonText": "GitHub"
+  },
+  "subscriptionBanner": {
+    "offerActivatedHeading": "Odkryj ekskluzywne możliwości dostępne dla członków naszej społeczności. Kliknij przycisk Klub członków.",
+    "offerActivatedButtonText": "Klub członków",
+    "offerInactiveHeading": "Sprzedawaj subskrypcje, bilety, korzyści i pakiety ratalne członkom swojego plemienia.",
+    "offerInactiveButtonText": "Dowiedz się więcej"
+  },
+  "paymentStatusPage": {
+    "successHeading": "Płatność zakończona sukcesem",
+    "successDescription": "Możesz teraz cieszyć się Orbis używając swojego rejestru. Otrzymasz e-mail z potwierdzeniem, pobierz aplikację i witaj w Orbis!",
+    "errorHeading": "Płatność nie powiodła się",
+    "errorDescription": "Ale nie martw się, wróć do procesu, sprawdź czy podane informacje są poprawne lub czy metoda płatności jest odpowiednia.",
+    "buttonText": "Przejdź do strony głównej",
+    "paymentCannotBeCompletedErrorHeading": "Nie można zakończyć płatności.",
+    "paymentCannotBeCompletedErrorDescription": "Zazwyczaj dzieje się tak, gdy już subskrybujesz plan. Użyj naszej aplikacji, aby zaktualizować swoją ofertę."
+  },
+  "paymentPage": {
+    "processingPayment": "Przetwarzanie płatności",
+    "payNow": "Zapłać teraz"
+  },
+  "plansPage": {
+    "heading": "Oferty plemienia",
+    "youWillBeCharged": "Zostaniesz obciążony",
+    "onceAYear": "raz w roku",
+    "onceAMonth": "miesięcznie",
+    "in": "w",
+    "annualInstallment": "raty roczne, łącznie",
+    "monthlyInstallment": "raty miesięczne, łącznie",
+    "perUnit": "za jednostkę",
+    "buy": "Kup",
+    "seeImages": "zobacz zdjęcia",
+    "month": "miesiąc",
+    "year": "rok",
+    "metaTitle": "Plany"
+  },
+  "auth": {
+    "registerHeading": "Rejestracja osobista",
+    "name": "Imię",
+    "email": "E-mail",
+    "password": "Hasło",
+    "register": "Zarejestruj",
+    "loginHeading": "Logowanie osobiste",
+    "login": "Zaloguj"
+  },
+  "user": {
+    "metaTitle": "Użytkownik"
+  },
+  "tos": {
+    "metaTitle": "Warunki i zasady"
+  },
+  "privacy": {
+    "metaTitle": "Polityka prywatności"
+  },
+  "meta": {
+    "title": "Orbis Plemiona Cyfrowe",
+    "description": "Sieć społecznościowa stworzona do mapowania plemion cyfrowych w Twojej okolicy. Z Orbis możesz odkrywać plemiona cyfrowe wokół siebie."
+  },
+  "exchange": {
+    "heroCopyHeading": "Zostań operatorem klona. Uruchom własny węzeł Orbis.",
+    "heroCopyBody": "Orbis GeoNet (Internet geograficzny) to zdecentralizowana warstwa protokołu, która napędza globalną mapę społeczną. Każde zgłoszone miejsce, plemię i terytorium jest przechowywane jako weryfikowalny hash na Solanie — trwałe, otwarte i nienależące do żadnej pojedynczej firmy. Jako operator klona uruchamiasz własną niezależną aplikację na współdzielonej mapie, zarabiasz na swoich użytkownikach i zachowujesz 99% opłat za bajty. Zarejestruj klona za 50 $ORBIS i zacznij budować."
+  },
+  "exchangeWidget": {
+    "buy": "KUP",
+    "sell": "SPRZEDAJ",
+    "youSend": "Wysyłasz",
+    "youGet": "Otrzymujesz",
+    "disconnect": "Rozłącz",
+    "networkFee": "Opłata sieciowa ≈ 0,00001 SOL",
+    "fetchingRate": "Pobieranie kursu…",
+    "waitingConfirmation": "Oczekiwanie na potwierdzenie…",
+    "connectWallet": "Połącz Portfel",
+    "insufficientSol": "Niewystarczające SOL",
+    "insufficientOrbis": "Niewystarczające Orbis",
+    "buyBtn": "Kup",
+    "sellBtn": "Sprzedaj",
+    "transactionConfirmed": "Transakcja potwierdzona.",
+    "viewOnSolscan": "Zobacz na Solscan",
+    "failedToConnect": "Nie udało się połączyć portfela.",
+    "transactionFailed": "Transakcja nieudana.",
+    "termsAgreement": "Łącząc się, zgadzasz się na Warunki Usługi"
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "homePage": {
+    "heroHeading": "Tribus digitales en el mapa de tu región",
+    "heroDescription": "Una red social creada para mapear tribus digitales en tu área. Con Orbis, puedes descubrir tribus digitales a tu alrededor.",
+    "feature1Text": "Crea o únete a una tribu.",
+    "feature2Text": "Reclama lugares con tus tribus y marca tu territorio en el mapa con el símbolo de la tribu.",
+    "feature3Text": "Compite por la propiedad de lugares con otras tribus reclamándolos.",
+    "feature4Text": "Cuantas más reclamaciones haya en una región, más grande será el territorio de la tribu a su alrededor. Así que dile a tus amigos que reclamen lugares.",
+    "feature5Text": "Reclama lugares con tu tribu y marca tu territorio en el mapa con el símbolo de la tribu.",
+    "feature6Text": "Crea un club de miembros dentro de tu tribu y monetiza tu uso de Orbis. Vende suscripciones, entradas, beneficios y mucho más.",
+    "appStoreURL": "https://apps.apple.com/ca/app/orbis-tribos-digitais/id1453025529"
+  },
+  "groupPage": {
+    "metaTitle": "Tribu"
+  },
+  "placePage": {
+    "seeTimetables": "Ver horarios",
+    "goToWebsite": "Ir al sitio web",
+    "availableTimes": "Horarios disponibles",
+    "schedules": "Horarios",
+    "telephone": "Teléfono",
+    "hoursUnavailable": "Horarios no disponibles para este lugar",
+    "address": "Dirección",
+    "openInGoogleMaps": "Abrir en Google Maps",
+    "groupsInThisPlace": "Tribus en este lugar",
+    "placesTheGroupFrequents": "Lugares que frecuenta la tribu",
+    "connect": "Conectar",
+    "site": "sitio",
+    "metaTitle": "Lugar"
+  },
+  "common": {
+    "searchbarPlaceholder": "Buscar tribus digitales",
+    "searchSuggestionHeading": "¿Estás buscando",
+    "downloadHere": "Descarga aquí",
+    "termsAndCondition": "Términos y condiciones",
+    "privacyPolicy": "Política de privacidad",
+    "home": "Inicio",
+    "group": "Tribu",
+    "groups": "Tribus",
+    "searchResults": "Resultados de búsqueda",
+    "latestPosts": "Últimas publicaciones",
+    "events": "Eventos",
+    "members": "Miembros",
+    "whereIsIt": "¿Dónde está?",
+    "gallery": "Galería",
+    "followers": "Seguidores",
+    "followings": "Siguiendo",
+    "place": "Lugar",
+    "goBack": "Volver",
+    "seeMore": "Ver más",
+    "seeLess": "Ver menos",
+    "chooseOS": "Elige tu sistema operativo",
+    "goToHomepage": "Ir a la página de inicio",
+    "map": "Mapa",
+    "navDeveloper": "Desarrollador"
+  },
+  "errors": {
+    "noMatchingResultsFound": "No se encontraron resultados",
+    "groupHasNoMembers": "La tribu no tiene miembros",
+    "noPosts": "No hay publicaciones",
+    "noPhotos": "No hay fotos",
+    "placeDoesntExist": "El lugar no existe",
+    "groupDoesntExist": "La tribu no existe",
+    "userDoesntExist": "El usuario no existe",
+    "pageNotFound": "Página no encontrada",
+    "unableToFindRequestedResource": "No se puede encontrar el recurso solicitado",
+    "groupHasNoPlace": "La tribu no tiene lugares",
+    "noEvents": "No hay eventos",
+    "noComments": "Sin comentarios",
+    "noFollowings": "Sin seguidos",
+    "noFollowers": "Sin seguidores",
+    "noGroups": "Sin tribus"
+  },
+  "monitizeCommunityBanner": {
+    "heading": "Monetiza tu tribu",
+    "description": "Vende suscripciones, entradas, beneficios y paquetes a plazos a los miembros de tu tribu.",
+    "buttonText": "Saber más",
+    "closableBannerHeading": "Monetiza tu tribu creando ofertas y beneficios.",
+    "closableBannerHighlightedText": "Haz clic aquí para saber más."
+  },
+  "mapBanner": {
+    "heading": "Explora el mapa de tribus digitales en tu ciudad",
+    "description": "Descubre comunidades digitales vibrantes cerca de ti. Haz clic en Abrir Mapa para navegar y conectarte con tribus en tu área.",
+    "buttonText": "Abrir Mapa"
+  },
+  "githubBanner": {
+    "heading": "Contribuye al Mapa Descentralizado",
+    "description": "Orbis es un proyecto de código abierto donde el mapa tribal se registra en la blockchain de Solana. Crea tu propio clon de Orbis y participa.",
+    "buttonText": "GitHub"
+  },
+  "subscriptionBanner": {
+    "offerActivatedHeading": "Explora las oportunidades exclusivas disponibles para los miembros de nuestra comunidad. Haz clic en el botón Club de Miembros.",
+    "offerActivatedButtonText": "Club de Miembros",
+    "offerInactiveHeading": "Vende suscripciones, entradas, beneficios y paquetes a plazos a los miembros de tu tribu.",
+    "offerInactiveButtonText": "Saber más"
+  },
+  "paymentStatusPage": {
+    "successHeading": "Pago Exitoso",
+    "successDescription": "Ahora puedes disfrutar de Orbis con tu registro. Recibirás un correo de confirmación, descarga la aplicación, ¡y bienvenido a Orbis!",
+    "errorHeading": "Pago Fallido",
+    "errorDescription": "Pero no te preocupes, vuelve al proceso, verifica si la información proporcionada es correcta o si el método de pago es apropiado.",
+    "buttonText": "Ir a la página de inicio",
+    "paymentCannotBeCompletedErrorHeading": "No se pudo completar el pago.",
+    "paymentCannotBeCompletedErrorDescription": "Esto suele suceder cuando ya estás suscrito al plan. Por favor, usa nuestra aplicación para actualizar tu oferta."
+  },
+  "paymentPage": {
+    "processingPayment": "Procesando Pago",
+    "payNow": "Pagar Ahora"
+  },
+  "plansPage": {
+    "heading": "Ofertas de la Tribu",
+    "youWillBeCharged": "Se te cobrará",
+    "onceAYear": "una vez al año",
+    "onceAMonth": "cada mes",
+    "in": "En",
+    "annualInstallment": "cuotas anuales, sumando un total de",
+    "monthlyInstallment": "cuotas mensuales, sumando un total de",
+    "perUnit": "Por unidad",
+    "buy": "Comprar",
+    "seeImages": "ver imágenes",
+    "month": "mes",
+    "year": "año",
+    "metaTitle": "Planes"
+  },
+  "auth": {
+    "registerHeading": "Registro Personal",
+    "name": "Nombre",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "register": "Registrarse",
+    "loginHeading": "Inicio de Sesión Personal",
+    "login": "Iniciar Sesión"
+  },
+  "user": {
+    "metaTitle": "Usuario"
+  },
+  "tos": {
+    "metaTitle": "Términos y Condiciones"
+  },
+  "privacy": {
+    "metaTitle": "Política de Privacidad"
+  },
+  "meta": {
+    "title": "Orbis Tribus Digitales",
+    "description": "Una red social creada para mapear tribus digitales en tu área. Con Orbis, puedes descubrir tribus digitales a tu alrededor."
+  },
+  "exchange": {
+    "heroCopyHeading": "Conviértete en operador de clon. Ejecuta tu propio nodo de Orbis.",
+    "heroCopyBody": "Orbis GeoNet (Internet Geográfico) es la capa de protocolo descentralizada que impulsa un mapa social global. Cada lugar reclamado, tribu y territorio se almacena como un hash verificable en Solana — permanente, abierto y no propiedad de ninguna sola empresa. Como operador de clon, ejecutas tu propia aplicación independiente en el mapa compartido, ganas con tus usuarios y conservas el 99 % de las tarifas por byte. Registra un clon por 50 $ORBIS y comienza a construir."
+  },
+  "exchangeWidget": {
+    "buy": "COMPRAR",
+    "sell": "VENDER",
+    "youSend": "Tú Envías",
+    "youGet": "Tú Recibes",
+    "disconnect": "Desconectar",
+    "networkFee": "Tarifa de red ≈ 0,00001 SOL",
+    "fetchingRate": "Obteniendo tasa…",
+    "waitingConfirmation": "Esperando confirmación…",
+    "connectWallet": "Conectar Billetera",
+    "insufficientSol": "SOL insuficiente",
+    "insufficientOrbis": "Orbis insuficiente",
+    "buyBtn": "Comprar",
+    "sellBtn": "Vender",
+    "transactionConfirmed": "Transacción confirmada.",
+    "viewOnSolscan": "Ver en Solscan",
+    "failedToConnect": "Error al conectar billetera.",
+    "transactionFailed": "Transacción fallida.",
+    "termsAgreement": "Al conectar aceptas los Términos de Servicio"
+  }
+}

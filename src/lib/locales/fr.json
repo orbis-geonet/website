@@ -1,0 +1,171 @@
+{
+  "homePage": {
+    "heroHeading": "Tribus numériques sur la carte de votre région",
+    "heroDescription": "Un réseau social créé pour cartographier les tribus numériques de votre région. Avec Orbis, découvrez les tribus numériques autour de vous.",
+    "feature1Text": "Créez ou rejoignez une tribu.",
+    "feature2Text": "Revendiquez des lieux avec vos tribus et marquez votre territoire sur la carte avec le symbole de la tribu.",
+    "feature3Text": "Disputez-vous la propriété des lieux avec d'autres tribus en les revendiquant.",
+    "feature4Text": "Plus il y a de revendications dans une région, plus le territoire de la tribu sera grand. Alors dites à vos amis de revendiquer des lieux.",
+    "feature5Text": "Revendiquez des lieux avec votre tribu et marquez votre territoire sur la carte avec le symbole de la tribu.",
+    "feature6Text": "Créez un club de membres au sein de votre tribu et monétisez votre utilisation d'Orbis. Vendez des abonnements, des billets, des avantages et bien plus encore.",
+    "appStoreURL": "https://apps.apple.com/ca/app/orbis-tribos-digitais/id1453025529"
+  },
+  "groupPage": {
+    "metaTitle": "Tribu"
+  },
+  "placePage": {
+    "seeTimetables": "Voir les horaires",
+    "goToWebsite": "Aller sur le site web",
+    "availableTimes": "Horaires disponibles",
+    "schedules": "Horaires",
+    "telephone": "Téléphone",
+    "hoursUnavailable": "Horaires indisponibles pour ce lieu",
+    "address": "Adresse",
+    "openInGoogleMaps": "Ouvrir dans Google Maps",
+    "groupsInThisPlace": "Tribus dans ce lieu",
+    "placesTheGroupFrequents": "Lieux fréquentés par la tribu",
+    "connect": "Se connecter",
+    "site": "site",
+    "metaTitle": "Lieu"
+  },
+  "common": {
+    "searchbarPlaceholder": "Rechercher des tribus numériques",
+    "searchSuggestionHeading": "Recherchez-vous",
+    "downloadHere": "Téléchargez ici",
+    "termsAndCondition": "Conditions générales",
+    "privacyPolicy": "Politique de confidentialité",
+    "home": "Accueil",
+    "group": "Tribu",
+    "groups": "Tribus",
+    "searchResults": "Résultats de recherche",
+    "latestPosts": "Dernières publications",
+    "events": "Événements",
+    "members": "Membres",
+    "whereIsIt": "Où est-ce ?",
+    "gallery": "Galerie",
+    "followers": "Abonnés",
+    "followings": "Abonnements",
+    "place": "Lieu",
+    "goBack": "Retour",
+    "seeMore": "Voir plus",
+    "seeLess": "Voir moins",
+    "chooseOS": "Choisissez votre système d'exploitation",
+    "goToHomepage": "Aller à la page d'accueil",
+    "map": "Carte",
+    "navDeveloper": "Développeur"
+  },
+  "errors": {
+    "noMatchingResultsFound": "Aucun résultat trouvé",
+    "groupHasNoMembers": "La tribu n'a pas de membres",
+    "noPosts": "Il n'y a pas de publications",
+    "noPhotos": "Il n'y a pas de photos",
+    "placeDoesntExist": "Le lieu n'existe pas",
+    "groupDoesntExist": "La tribu n'existe pas",
+    "userDoesntExist": "L'utilisateur n'existe pas",
+    "pageNotFound": "Page non trouvée",
+    "unableToFindRequestedResource": "Impossible de trouver la ressource demandée",
+    "groupHasNoPlace": "La tribu n'a pas de lieux",
+    "noEvents": "Il n'y a pas d'événements",
+    "noComments": "Pas de commentaires",
+    "noFollowings": "Aucun abonnement",
+    "noFollowers": "Aucun abonné",
+    "noGroups": "Aucune tribu"
+  },
+  "monitizeCommunityBanner": {
+    "heading": "Monétisez votre tribu",
+    "description": "Vendez des abonnements, des billets, des avantages et des forfaits à tempérament aux membres de votre tribu.",
+    "buttonText": "En savoir plus",
+    "closableBannerHeading": "Monétisez votre tribu en créant des offres et des avantages.",
+    "closableBannerHighlightedText": "Cliquez ici pour en savoir plus."
+  },
+  "mapBanner": {
+    "heading": "Explorez la carte des tribus numériques de votre ville",
+    "description": "Découvrez des communautés numériques dynamiques près de chez vous. Cliquez sur Ouvrir la carte pour naviguer et vous connecter avec les tribus de votre région.",
+    "buttonText": "Ouvrir la carte"
+  },
+  "githubBanner": {
+    "heading": "Contribuez à la carte décentralisée",
+    "description": "Orbis est un projet open source où la carte tribale est enregistrée sur la blockchain Solana. Créez votre propre clone d'Orbis et participez.",
+    "buttonText": "GitHub"
+  },
+  "subscriptionBanner": {
+    "offerActivatedHeading": "Explorez les opportunités exclusives offertes aux membres de notre communauté. Cliquez sur le bouton Club des membres.",
+    "offerActivatedButtonText": "Club des membres",
+    "offerInactiveHeading": "Vendez des abonnements, des billets, des avantages et des forfaits à tempérament aux membres de votre tribu.",
+    "offerInactiveButtonText": "En savoir plus"
+  },
+  "paymentStatusPage": {
+    "successHeading": "Paiement réussi",
+    "successDescription": "Vous pouvez maintenant profiter d'Orbis avec votre inscription. Vous recevrez un email de confirmation, téléchargez l'application, et bienvenue sur Orbis !",
+    "errorHeading": "Paiement échoué",
+    "errorDescription": "Ne vous inquiétez pas, revenez dans le processus, vérifiez si les informations fournies sont correctes ou si le mode de paiement est approprié.",
+    "buttonText": "Aller à la page d'accueil",
+    "paymentCannotBeCompletedErrorHeading": "Le paiement n'a pas pu être effectué.",
+    "paymentCannotBeCompletedErrorDescription": "Cela arrive généralement lorsque vous êtes déjà abonné au forfait. Veuillez utiliser notre application pour mettre à jour votre offre."
+  },
+  "paymentPage": {
+    "processingPayment": "Traitement du paiement",
+    "payNow": "Payer maintenant"
+  },
+  "plansPage": {
+    "heading": "Offres de la tribu",
+    "youWillBeCharged": "Vous serez facturé",
+    "onceAYear": "une fois par an",
+    "onceAMonth": "chaque mois",
+    "in": "En",
+    "annualInstallment": "versements annuels, pour un total de",
+    "monthlyInstallment": "versements mensuels, pour un total de",
+    "perUnit": "Par unité",
+    "buy": "Acheter",
+    "seeImages": "voir les images",
+    "month": "mois",
+    "year": "année",
+    "metaTitle": "Forfaits"
+  },
+  "auth": {
+    "registerHeading": "Inscription personnelle",
+    "name": "Nom",
+    "email": "Email",
+    "password": "Mot de passe",
+    "register": "S'inscrire",
+    "loginHeading": "Connexion personnelle",
+    "login": "Se connecter"
+  },
+  "user": {
+    "metaTitle": "Utilisateur"
+  },
+  "tos": {
+    "metaTitle": "Conditions générales"
+  },
+  "privacy": {
+    "metaTitle": "Politique de confidentialité"
+  },
+  "meta": {
+    "title": "Orbis Tribus Numériques",
+    "description": "Un réseau social créé pour cartographier les tribus numériques de votre région. Avec Orbis, découvrez les tribus numériques autour de vous."
+  },
+  "exchange": {
+    "heroCopyHeading": "Devenez opérateur de clone. Exécutez votre propre nœud Orbis.",
+    "heroCopyBody": "Orbis GeoNet (Internet géographique) est la couche de protocole décentralisée qui alimente une carte sociale mondiale. Chaque lieu revendiqué, tribu et territoire est stocké sous forme de hash vérifiable sur Solana — permanent, ouvert et détenu par aucune entreprise unique. En tant qu’opérateur de clone, vous exécutez votre propre application indépendante sur la carte partagée, gagnez grâce à vos utilisateurs et conservez 99 % des frais de byte. Enregistrez un clone pour 50 $ORBIS et commencez à construire."
+  },
+  "exchangeWidget": {
+    "buy": "ACHETER",
+    "sell": "VENDRE",
+    "youSend": "Vous Envoyez",
+    "youGet": "Vous Recevez",
+    "disconnect": "Déconnecter",
+    "networkFee": "Frais réseau ≈ 0,00001 SOL",
+    "fetchingRate": "Récupération du taux…",
+    "waitingConfirmation": "En attente de confirmation…",
+    "connectWallet": "Connecter le Portefeuille",
+    "insufficientSol": "SOL insuffisant",
+    "insufficientOrbis": "Orbis insuffisant",
+    "buyBtn": "Acheter",
+    "sellBtn": "Vendre",
+    "transactionConfirmed": "Transaction confirmée.",
+    "viewOnSolscan": "Voir sur Solscan",
+    "failedToConnect": "Échec de la connexion du portefeuille.",
+    "transactionFailed": "Transaction échouée.",
+    "termsAgreement": "En vous connectant, vous acceptez les Conditions de Service"
+  }
+}
