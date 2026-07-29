@@ -41,7 +41,7 @@
     "lodash": "^4.17.21",
     "lucide-react": "^0.469.0",
     "negotiator": "^0.6.3",
-    "next": "^14.2.29",
+    "next": "^15.5.21",
     "postcss": "8.4.27",
     "qrcode": "^1.5.3",
     "react": "18.2.0",
