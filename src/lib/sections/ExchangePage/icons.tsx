@@ -5,6 +5,7 @@ import orbisCoin from "@public/images/exchange/orbis-coin.png";
 import metamask from "@public/images/exchange/metamask.png";
 import trustWallet from "@public/images/exchange/trust-wallet.png";
 import phantom from "@public/images/exchange/phantom.png";
+import solflare from "@public/images/exchange/solfare.png";
 
 export const ArrowLeftRightIcon = ({
   className = "",
@@ -65,6 +66,7 @@ export const OrbisCoin = makePngIcon(orbisCoin, "Orbis");
 export const MetaMaskIcon = makePngIcon(metamask, "MetaMask");
 export const TrustWalletIcon = makePngIcon(trustWallet, "Trust Wallet");
 export const PhantomIcon = makePngIcon(phantom, "Phantom");
+export const SolflareIcon = makePngIcon(solflare, "Solflare");
 
 export const SolanaIcon = ({ className = "" }: { className?: string }) => (
   <svg

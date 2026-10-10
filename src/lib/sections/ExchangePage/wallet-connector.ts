@@ -10,17 +10,26 @@ import {
   getAssociatedTokenAddress,
 } from "@solana/spl-token";
 import { createSolanaClient } from "@metamask/connect-solana";
+import {
+  getPythSolUsdValue,
+  parsePythSolUsdPrice,
+  PYTH_DELAYED_PRICE_MAX_AGE_SECONDS,
+  PYTH_FRESH_PRICE_MAX_AGE_SECONDS,
+  PYTH_RECEIVER_PROGRAM_ID,
+  PYTH_SOL_USD_PRICE_ACCOUNT,
+} from "./pyth-price";
 
 declare global {
   interface Window {
     phantom?: { solana?: SolanaProvider };
     trustwallet?: { solana?: SolanaProvider };
+    solflare?: SolanaProvider;
     solana?: SolanaProvider;
     ethereum?: { isMetaMask?: boolean };
   }
 }
 
-export type WalletType = "phantom" | "metamask" | "trustwallet";
+export type WalletType = "phantom" | "metamask" | "trustwallet" | "solflare";
 export type SwapDirection = "buy" | "sell";
 export type SolanaNetwork = "devnet" | "mainnet-beta" | "testnet";
 
@@ -33,7 +42,9 @@ const SOLANA_CAIP_CHAIN: Record<SolanaNetwork, string> = {
 export interface SolanaProvider {
   publicKey: PublicKey | null;
   isPhantom?: boolean;
-  connect: (opts?: Record<string, unknown>) => Promise<{ publicKey: PublicKey }>;
+  connect: (
+    opts?: Record<string, unknown>
+  ) => Promise<{ publicKey?: PublicKey } | void>;
   disconnect: () => Promise<void>;
   signTransaction?: (tx: Transaction) => Promise<Transaction>;
   signAndSendTransaction?: (
@@ -61,8 +72,19 @@ export interface WalletBalances {
   orbis: number | null;
 }
 
+export interface ExchangeTreasuryState extends WalletBalances {
+  orbisPerSol: number | null;
+  solUsdPrice: number | null;
+}
+
 function getRpcEndpoint(network: SolanaNetwork): string {
-  return process.env.NEXT_PUBLIC_RPC_URL ?? clusterApiUrl(network);
+  return process.env.NEXT_PUBLIC_EXCHANGE_RPC_URL ?? clusterApiUrl(network);
+}
+
+function getExchangeProgramId(): PublicKey {
+  const programId = process.env.NEXT_PUBLIC_EXCHANGE_PROGRAM_ID ?? process.env.NEXT_PUBLIC_PROGRAM_ID;
+  if (!programId) throw new Error("Exchange program is not configured.");
+  return new PublicKey(programId.trim());
 }
 
 async function connectMetaMaskSolana(network: SolanaNetwork): Promise<ConnectedWallet> {
@@ -143,7 +165,9 @@ async function connectMetaMaskSolana(network: SolanaNetwork): Promise<ConnectedW
   return { type: "metamask", address: publicKey.toString(), publicKey, provider };
 }
 
-function resolvePhantomOrTrustProvider(type: "phantom" | "trustwallet"): SolanaProvider {
+function resolveInjectedProvider(
+  type: "phantom" | "trustwallet" | "solflare"
+): SolanaProvider {
   if (type === "phantom") {
     const p =
       window.phantom?.solana ??
@@ -152,13 +176,21 @@ function resolvePhantomOrTrustProvider(type: "phantom" | "trustwallet"): SolanaP
     return p;
   }
 
-  const tw = window.trustwallet?.solana ?? null;
-  if (!tw) {
-    throw new Error(
-      "Trust Wallet Solana provider not found. Please install the Trust Wallet extension."
-    );
+  if (type === "trustwallet") {
+    const tw = window.trustwallet?.solana ?? null;
+    if (!tw) {
+      throw new Error(
+        "Trust Wallet Solana provider not found. Please install the Trust Wallet extension."
+      );
+    }
+    return tw;
   }
-  return tw;
+
+  const sf = window.solflare ?? null;
+  if (!sf) {
+    throw new Error("Solflare is not installed. Visit solflare.com to install.");
+  }
+  return sf;
 }
 
 export async function connectWallet(
@@ -171,12 +203,18 @@ export async function connectWallet(
 
   if (type === "metamask") return connectMetaMaskSolana(network);
 
-  const provider = resolvePhantomOrTrustProvider(type);
+  const provider = resolveInjectedProvider(type);
   const response = await provider.connect();
+  const publicKey = response?.publicKey ?? provider.publicKey;
+
+  if (!publicKey) {
+    throw new Error(`${type} did not provide a connected account.`);
+  }
+
   return {
     type,
-    address: response.publicKey.toString(),
-    publicKey: response.publicKey,
+    address: publicKey.toString(),
+    publicKey,
     provider,
   };
 }
@@ -208,28 +246,46 @@ export async function fetchBalances(
   }
 }
 
-export async function fetchBalancesByAddress(
-  address: string,
+export async function fetchExchangeTreasuryState(
   network: SolanaNetwork
-): Promise<WalletBalances> {
+): Promise<ExchangeTreasuryState> {
   const connection = new Connection(getRpcEndpoint(network), "confirmed");
-  const orbisMintStr = process.env.NEXT_PUBLIC_ORBIS_MINT;
-  const pubkey = new PublicKey(address);
+  const programId = getExchangeProgramId();
+  const [solVault] = PublicKey.findProgramAddressSync(
+    [new TextEncoder().encode("exchange_sol_vault")],
+    programId
+  );
+  const [reserveVault] = PublicKey.findProgramAddressSync(
+    [new TextEncoder().encode("sol_orbis_reserve_vault")],
+    programId
+  );
+  const solUsdPriceAccount = new PublicKey(PYTH_SOL_USD_PRICE_ACCOUNT);
+  const pythReceiverProgramId = new PublicKey(PYTH_RECEIVER_PROGRAM_ID);
 
-  const solLamports = await connection.getBalance(pubkey);
-  const sol = solLamports / LAMPORTS_PER_SOL;
+  const [solLamports, reserveBalance, priceAccount] = await Promise.all([
+    connection.getBalance(solVault),
+    connection.getTokenAccountBalance(reserveVault),
+    connection.getAccountInfo(solUsdPriceAccount),
+  ]);
 
-  if (!orbisMintStr) return { sol, orbis: null };
-
-  const orbisMint = new PublicKey(orbisMintStr);
-  const orbisAta = await getAssociatedTokenAddress(orbisMint, pubkey);
-
-  try {
-    const tokenBalance = await connection.getTokenAccountBalance(orbisAta);
-    return { sol, orbis: tokenBalance.value.uiAmount ?? 0 };
-  } catch {
-    return { sol, orbis: 0 };
+  let solUsdPrice: number | null = null;
+  if (priceAccount?.owner.equals(pythReceiverProgramId)) {
+    try {
+      const maxPriceAge = network === "devnet"
+        ? PYTH_DELAYED_PRICE_MAX_AGE_SECONDS
+        : PYTH_FRESH_PRICE_MAX_AGE_SECONDS;
+      solUsdPrice = getPythSolUsdValue(parsePythSolUsdPrice(priceAccount.data, undefined, maxPriceAge));
+    } catch {
+      solUsdPrice = null;
+    }
   }
+
+  return {
+    sol: solLamports / LAMPORTS_PER_SOL,
+    orbis: reserveBalance.value.uiAmount ?? 0,
+    orbisPerSol: solUsdPrice,
+    solUsdPrice,
+  };
 }
 
 export async function executeSwap({

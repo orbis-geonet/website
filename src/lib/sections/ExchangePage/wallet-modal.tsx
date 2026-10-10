@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { PhantomIcon, MetaMaskIcon, TrustWalletIcon } from "./icons";
+import { PhantomIcon, MetaMaskIcon, SolflareIcon, TrustWalletIcon } from "./icons";
 import type { WalletType } from "./wallet-connector";
 import useLocale from "@/hooks/useLocale";
 
@@ -16,6 +16,7 @@ const WALLETS: { type: WalletType; label: string; Icon: React.ComponentType<{ si
   { type: "phantom", label: "Phantom", Icon: PhantomIcon },
   { type: "metamask", label: "MetaMask", Icon: MetaMaskIcon },
   { type: "trustwallet", label: "Trust Wallet", Icon: TrustWalletIcon },
+  { type: "solflare", label: "Solflare", Icon: SolflareIcon },
 ];
 
 const Spinner = () => (

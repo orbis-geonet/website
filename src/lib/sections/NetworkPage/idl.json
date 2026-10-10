@@ -7,6 +7,363 @@
   },
   "instructions": [
     {
+      "name": "admin_withdraw_orbis",
+      "discriminator": [
+        185,
+        229,
+        164,
+        137,
+        239,
+        201,
+        135,
+        27
+      ],
+      "accounts": [
+        {
+          "name": "config",
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  103,
+                  108,
+                  111,
+                  98,
+                  97,
+                  108,
+                  95,
+                  99,
+                  111,
+                  110,
+                  102,
+                  105,
+                  103
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "admin",
+          "signer": true,
+          "relations": [
+            "config"
+          ]
+        },
+        {
+          "name": "reserve_vault",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  115,
+                  111,
+                  108,
+                  95,
+                  111,
+                  114,
+                  98,
+                  105,
+                  115,
+                  95,
+                  114,
+                  101,
+                  115,
+                  101,
+                  114,
+                  118,
+                  101,
+                  95,
+                  118,
+                  97,
+                  117,
+                  108,
+                  116
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "recipient_token_account",
+          "writable": true
+        },
+        {
+          "name": "token_program",
+          "address": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        }
+      ],
+      "args": [
+        {
+          "name": "orbis_amount",
+          "type": "u64"
+        }
+      ]
+    },
+    {
+      "name": "admin_withdraw_sol",
+      "discriminator": [
+        111,
+        237,
+        192,
+        44,
+        255,
+        224,
+        149,
+        126
+      ],
+      "accounts": [
+        {
+          "name": "config",
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  103,
+                  108,
+                  111,
+                  98,
+                  97,
+                  108,
+                  95,
+                  99,
+                  111,
+                  110,
+                  102,
+                  105,
+                  103
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "admin",
+          "signer": true,
+          "relations": [
+            "config"
+          ]
+        },
+        {
+          "name": "sol_vault",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  101,
+                  120,
+                  99,
+                  104,
+                  97,
+                  110,
+                  103,
+                  101,
+                  95,
+                  115,
+                  111,
+                  108,
+                  95,
+                  118,
+                  97,
+                  117,
+                  108,
+                  116
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "recipient",
+          "writable": true
+        },
+        {
+          "name": "system_program",
+          "address": "11111111111111111111111111111111"
+        }
+      ],
+      "args": [
+        {
+          "name": "sol_lamports",
+          "type": "u64"
+        }
+      ]
+    },
+    {
+      "name": "buy_orbis",
+      "discriminator": [
+        126,
+        109,
+        94,
+        53,
+        253,
+        143,
+        134,
+        139
+      ],
+      "accounts": [
+        {
+          "name": "buyer",
+          "writable": true,
+          "signer": true
+        },
+        {
+          "name": "buyer_token_account",
+          "writable": true
+        },
+        {
+          "name": "sol_vault",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  101,
+                  120,
+                  99,
+                  104,
+                  97,
+                  110,
+                  103,
+                  101,
+                  95,
+                  115,
+                  111,
+                  108,
+                  95,
+                  118,
+                  97,
+                  117,
+                  108,
+                  116
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "sol_payment_config",
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  115,
+                  111,
+                  108,
+                  95,
+                  112,
+                  97,
+                  121,
+                  109,
+                  101,
+                  110,
+                  116,
+                  95,
+                  99,
+                  111,
+                  110,
+                  102,
+                  105,
+                  103
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "reserve_vault",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  115,
+                  111,
+                  108,
+                  95,
+                  111,
+                  114,
+                  98,
+                  105,
+                  115,
+                  95,
+                  114,
+                  101,
+                  115,
+                  101,
+                  114,
+                  118,
+                  101,
+                  95,
+                  118,
+                  97,
+                  117,
+                  108,
+                  116
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "config",
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  103,
+                  108,
+                  111,
+                  98,
+                  97,
+                  108,
+                  95,
+                  99,
+                  111,
+                  110,
+                  102,
+                  105,
+                  103
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "sol_usd_price_update",
+          "address": "7UVimffxr9ow1uXYxsr4LHAcV58mLzhmwaeKvJ1pjLiE"
+        },
+        {
+          "name": "token_program",
+          "address": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        },
+        {
+          "name": "system_program",
+          "address": "11111111111111111111111111111111"
+        }
+      ],
+      "args": [
+        {
+          "name": "sol_lamports",
+          "type": "u64"
+        },
+        {
+          "name": "min_orbis_amount",
+          "type": "u64"
+        }
+      ]
+    },
+    {
       "name": "claim_streaming_payment",
       "discriminator": [
         128,
@@ -470,6 +827,142 @@
       "args": []
     },
     {
+      "name": "init_sol_payment_config",
+      "discriminator": [
+        78,
+        146,
+        182,
+        250,
+        153,
+        239,
+        77,
+        201
+      ],
+      "accounts": [
+        {
+          "name": "sol_payment_config",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  115,
+                  111,
+                  108,
+                  95,
+                  112,
+                  97,
+                  121,
+                  109,
+                  101,
+                  110,
+                  116,
+                  95,
+                  99,
+                  111,
+                  110,
+                  102,
+                  105,
+                  103
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "reserve_vault",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  115,
+                  111,
+                  108,
+                  95,
+                  111,
+                  114,
+                  98,
+                  105,
+                  115,
+                  95,
+                  114,
+                  101,
+                  115,
+                  101,
+                  114,
+                  118,
+                  101,
+                  95,
+                  118,
+                  97,
+                  117,
+                  108,
+                  116
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "orbis_mint"
+        },
+        {
+          "name": "config",
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  103,
+                  108,
+                  111,
+                  98,
+                  97,
+                  108,
+                  95,
+                  99,
+                  111,
+                  110,
+                  102,
+                  105,
+                  103
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "admin",
+          "writable": true,
+          "signer": true,
+          "relations": [
+            "config"
+          ]
+        },
+        {
+          "name": "token_program",
+          "address": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        },
+        {
+          "name": "system_program",
+          "address": "11111111111111111111111111111111"
+        },
+        {
+          "name": "rent",
+          "address": "SysvarRent111111111111111111111111111111111"
+        }
+      ],
+      "args": [
+        {
+          "name": "orbis_per_sol_rate",
+          "type": "u64"
+        }
+      ]
+    },
+    {
       "name": "init_streaming_escrow",
       "discriminator": [
         96,
@@ -685,6 +1178,250 @@
         {
           "name": "registration_fee",
           "type": "u64"
+        }
+      ]
+    },
+    {
+      "name": "pay_tribe",
+      "docs": [
+        "Split a single ORBIS payment atomically: 90% tribe owner, 7% clone",
+        "operator, 3% treasury. The payer (buyer) is the only signer \u2014 we never",
+        "custody funds. `payment_ref` is the off-chain correlation/idempotency key",
+        "echoed in the emitted event."
+      ],
+      "discriminator": [
+        129,
+        250,
+        227,
+        193,
+        244,
+        74,
+        154,
+        204
+      ],
+      "accounts": [
+        {
+          "name": "payer",
+          "writable": true,
+          "signer": true
+        },
+        {
+          "name": "payer_token_account",
+          "writable": true
+        },
+        {
+          "name": "tribe_owner_token_account",
+          "writable": true
+        },
+        {
+          "name": "clone_token_account",
+          "writable": true
+        },
+        {
+          "name": "treasury_token_account",
+          "writable": true
+        },
+        {
+          "name": "config",
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  103,
+                  108,
+                  111,
+                  98,
+                  97,
+                  108,
+                  95,
+                  99,
+                  111,
+                  110,
+                  102,
+                  105,
+                  103
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "token_program",
+          "address": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        }
+      ],
+      "args": [
+        {
+          "name": "amount",
+          "type": "u64"
+        },
+        {
+          "name": "payment_ref",
+          "type": {
+            "array": [
+              "u8",
+              32
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "pay_tribe_with_sol",
+      "discriminator": [
+        20,
+        36,
+        130,
+        107,
+        205,
+        118,
+        156,
+        4
+      ],
+      "accounts": [
+        {
+          "name": "payer",
+          "writable": true,
+          "signer": true
+        },
+        {
+          "name": "sol_treasury",
+          "writable": true
+        },
+        {
+          "name": "sol_payment_config",
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  115,
+                  111,
+                  108,
+                  95,
+                  112,
+                  97,
+                  121,
+                  109,
+                  101,
+                  110,
+                  116,
+                  95,
+                  99,
+                  111,
+                  110,
+                  102,
+                  105,
+                  103
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "reserve_vault",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  115,
+                  111,
+                  108,
+                  95,
+                  111,
+                  114,
+                  98,
+                  105,
+                  115,
+                  95,
+                  114,
+                  101,
+                  115,
+                  101,
+                  114,
+                  118,
+                  101,
+                  95,
+                  118,
+                  97,
+                  117,
+                  108,
+                  116
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "tribe_owner_token_account",
+          "writable": true
+        },
+        {
+          "name": "clone_token_account",
+          "writable": true
+        },
+        {
+          "name": "treasury_token_account",
+          "writable": true
+        },
+        {
+          "name": "config",
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  103,
+                  108,
+                  111,
+                  98,
+                  97,
+                  108,
+                  95,
+                  99,
+                  111,
+                  110,
+                  102,
+                  105,
+                  103
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "sol_usd_price_update",
+          "address": "7UVimffxr9ow1uXYxsr4LHAcV58mLzhmwaeKvJ1pjLiE"
+        },
+        {
+          "name": "token_program",
+          "address": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        },
+        {
+          "name": "system_program",
+          "address": "11111111111111111111111111111111"
+        }
+      ],
+      "args": [
+        {
+          "name": "sol_lamports",
+          "type": "u64"
+        },
+        {
+          "name": "min_orbis_amount",
+          "type": "u64"
+        },
+        {
+          "name": "payment_ref",
+          "type": {
+            "array": [
+              "u8",
+              32
+            ]
+          }
         }
       ]
     },
@@ -965,16 +1702,184 @@
       "args": []
     },
     {
-      "name": "sync_collection_batch",
+      "name": "sell_orbis",
       "discriminator": [
-        24,
-        15,
-        162,
-        167,
-        43,
-        133,
-        233,
-        143
+        39,
+        3,
+        21,
+        60,
+        176,
+        63,
+        107,
+        176
+      ],
+      "accounts": [
+        {
+          "name": "seller",
+          "writable": true,
+          "signer": true
+        },
+        {
+          "name": "seller_token_account",
+          "writable": true
+        },
+        {
+          "name": "sol_vault",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  101,
+                  120,
+                  99,
+                  104,
+                  97,
+                  110,
+                  103,
+                  101,
+                  95,
+                  115,
+                  111,
+                  108,
+                  95,
+                  118,
+                  97,
+                  117,
+                  108,
+                  116
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "sol_payment_config",
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  115,
+                  111,
+                  108,
+                  95,
+                  112,
+                  97,
+                  121,
+                  109,
+                  101,
+                  110,
+                  116,
+                  95,
+                  99,
+                  111,
+                  110,
+                  102,
+                  105,
+                  103
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "reserve_vault",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  115,
+                  111,
+                  108,
+                  95,
+                  111,
+                  114,
+                  98,
+                  105,
+                  115,
+                  95,
+                  114,
+                  101,
+                  115,
+                  101,
+                  114,
+                  118,
+                  101,
+                  95,
+                  118,
+                  97,
+                  117,
+                  108,
+                  116
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "config",
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  103,
+                  108,
+                  111,
+                  98,
+                  97,
+                  108,
+                  95,
+                  99,
+                  111,
+                  110,
+                  102,
+                  105,
+                  103
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "sol_usd_price_update",
+          "address": "7UVimffxr9ow1uXYxsr4LHAcV58mLzhmwaeKvJ1pjLiE"
+        },
+        {
+          "name": "token_program",
+          "address": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        },
+        {
+          "name": "system_program",
+          "address": "11111111111111111111111111111111"
+        }
+      ],
+      "args": [
+        {
+          "name": "orbis_amount",
+          "type": "u64"
+        },
+        {
+          "name": "min_sol_lamports",
+          "type": "u64"
+        }
+      ]
+    },
+    {
+      "name": "sync_index_manifest",
+      "discriminator": [
+        106,
+        136,
+        37,
+        114,
+        203,
+        197,
+        163,
+        244
       ],
       "accounts": [
         {
@@ -1071,28 +1976,42 @@
           "type": "u32"
         },
         {
-          "name": "collection_roots",
+          "name": "manifest_hash",
           "type": {
-            "vec": {
-              "defined": {
-                "name": "CollectionRoot"
-              }
-            }
+            "array": [
+              "u8",
+              32
+            ]
           }
         },
         {
-          "name": "events",
+          "name": "payload_hash",
           "type": {
-            "vec": {
-              "defined": {
-                "name": "BatchEvent"
-              }
-            }
+            "array": [
+              "u8",
+              32
+            ]
           }
         },
         {
-          "name": "batch_pointer",
+          "name": "manifest_pointer",
           "type": "string"
+        },
+        {
+          "name": "entry_count",
+          "type": "u32"
+        },
+        {
+          "name": "action_count",
+          "type": "u32"
+        },
+        {
+          "name": "from_ts",
+          "type": "i64"
+        },
+        {
+          "name": "to_ts",
+          "type": "i64"
         }
       ]
     },
@@ -1406,6 +2325,90 @@
       ]
     },
     {
+      "name": "update_sol_orbis_rate",
+      "discriminator": [
+        127,
+        191,
+        250,
+        91,
+        206,
+        23,
+        246,
+        170
+      ],
+      "accounts": [
+        {
+          "name": "sol_payment_config",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  115,
+                  111,
+                  108,
+                  95,
+                  112,
+                  97,
+                  121,
+                  109,
+                  101,
+                  110,
+                  116,
+                  95,
+                  99,
+                  111,
+                  110,
+                  102,
+                  105,
+                  103
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "config",
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  103,
+                  108,
+                  111,
+                  98,
+                  97,
+                  108,
+                  95,
+                  99,
+                  111,
+                  110,
+                  102,
+                  105,
+                  103
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "admin",
+          "signer": true,
+          "relations": [
+            "config"
+          ]
+        }
+      ],
+      "args": [
+        {
+          "name": "orbis_per_sol_rate",
+          "type": "u64"
+        }
+      ]
+    },
+    {
       "name": "withdraw_unused_funds",
       "discriminator": [
         253,
@@ -1534,6 +2537,19 @@
       ]
     },
     {
+      "name": "SolPaymentConfig",
+      "discriminator": [
+        19,
+        56,
+        113,
+        6,
+        88,
+        23,
+        191,
+        19
+      ]
+    },
+    {
       "name": "StreamingEscrow",
       "discriminator": [
         158,
@@ -1549,16 +2565,29 @@
   ],
   "events": [
     {
-      "name": "CollectionBatchSynced",
+      "name": "IndexManifestCommitted",
       "discriminator": [
-        217,
-        142,
-        122,
-        96,
-        162,
-        1,
-        182,
-        142
+        76,
+        78,
+        202,
+        128,
+        184,
+        177,
+        88,
+        13
+      ]
+    },
+    {
+      "name": "TribePaymentMade",
+      "discriminator": [
+        21,
+        131,
+        229,
+        200,
+        27,
+        98,
+        35,
+        230
       ]
     }
   ],
@@ -1622,51 +2651,34 @@
       "code": 6011,
       "name": "BatchTooLarge",
       "msg": "Batch contains too many entries"
+    },
+    {
+      "code": 6012,
+      "name": "InvalidRate",
+      "msg": "Invalid SOL to ORBIS rate"
+    },
+    {
+      "code": 6013,
+      "name": "SlippageExceeded",
+      "msg": "Quoted ORBIS amount is below the required minimum"
+    },
+    {
+      "code": 6014,
+      "name": "InsufficientTreasuryBalance",
+      "msg": "Treasury has insufficient liquidity"
+    },
+    {
+      "code": 6015,
+      "name": "InvalidOraclePrice",
+      "msg": "Pyth SOL/USD price is invalid, stale, or not fully verified"
+    },
+    {
+      "code": 6016,
+      "name": "OracleConfidenceTooWide",
+      "msg": "Pyth SOL/USD confidence interval is too wide"
     }
   ],
   "types": [
-    {
-      "name": "BatchEvent",
-      "type": {
-        "kind": "struct",
-        "fields": [
-          {
-            "name": "collection_id",
-            "type": "u8"
-          },
-          {
-            "name": "action",
-            "type": "u8"
-          },
-          {
-            "name": "field_mask",
-            "type": "u8"
-          },
-          {
-            "name": "key_hash",
-            "type": {
-              "array": [
-                "u8",
-                8
-              ]
-            }
-          },
-          {
-            "name": "timestamp",
-            "type": {
-              "array": [
-                "u8",
-                4
-              ]
-            }
-          },
-          {
-            "name": "opt_data",
-            "type": "bytes"
-          }
-        ]
-      }
-    },
     {
       "name": "CloneInfo",
       "type": {
@@ -1695,71 +2707,6 @@
           {
             "name": "is_genesis",
             "type": "bool"
-          }
-        ]
-      }
-    },
-    {
-      "name": "CollectionBatchSynced",
-      "type": {
-        "kind": "struct",
-        "fields": [
-          {
-            "name": "packet_type",
-            "type": "u8"
-          },
-          {
-            "name": "batch_id",
-            "type": "u32"
-          },
-          {
-            "name": "collection_roots",
-            "type": {
-              "vec": {
-                "defined": {
-                  "name": "CollectionRoot"
-                }
-              }
-            }
-          },
-          {
-            "name": "events",
-            "type": {
-              "vec": {
-                "defined": {
-                  "name": "BatchEvent"
-                }
-              }
-            }
-          },
-          {
-            "name": "batch_pointer",
-            "type": "string"
-          },
-          {
-            "name": "provider",
-            "type": "pubkey"
-          }
-        ]
-      }
-    },
-    {
-      "name": "CollectionRoot",
-      "type": {
-        "kind": "struct",
-        "fields": [
-          {
-            "name": "collection_id",
-            "type": "u8"
-          },
-          {
-            "name": "root",
-            "type": {
-              "array": [
-                "u8",
-                32
-              ]
-            }
           }
         ]
       }
@@ -1805,6 +2752,184 @@
       }
     },
     {
+      "name": "IndexManifestCommitted",
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "packet_type",
+            "type": "u8"
+          },
+          {
+            "name": "batch_id",
+            "type": "u32"
+          },
+          {
+            "name": "manifest_hash",
+            "type": {
+              "array": [
+                "u8",
+                32
+              ]
+            }
+          },
+          {
+            "name": "payload_hash",
+            "type": {
+              "array": [
+                "u8",
+                32
+              ]
+            }
+          },
+          {
+            "name": "manifest_pointer",
+            "type": "string"
+          },
+          {
+            "name": "entry_count",
+            "type": "u32"
+          },
+          {
+            "name": "action_count",
+            "type": "u32"
+          },
+          {
+            "name": "from_ts",
+            "type": "i64"
+          },
+          {
+            "name": "to_ts",
+            "type": "i64"
+          },
+          {
+            "name": "provider",
+            "type": "pubkey"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PriceFeedMessage",
+      "repr": {
+        "kind": "c"
+      },
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "feed_id",
+            "docs": [
+              "`FeedId` but avoid the type alias because of compatibility issues with Anchor's `idl-build` feature."
+            ],
+            "type": {
+              "array": [
+                "u8",
+                32
+              ]
+            }
+          },
+          {
+            "name": "price",
+            "type": "i64"
+          },
+          {
+            "name": "conf",
+            "type": "u64"
+          },
+          {
+            "name": "exponent",
+            "type": "i32"
+          },
+          {
+            "name": "publish_time",
+            "docs": [
+              "The timestamp of this price update in seconds"
+            ],
+            "type": "i64"
+          },
+          {
+            "name": "prev_publish_time",
+            "docs": [
+              "The timestamp of the previous price update. This field is intended to allow users to",
+              "identify the single unique price update for any moment in time:",
+              "for any time t, the unique update is the one such that prev_publish_time < t <= publish_time.",
+              "",
+              "Note that there may not be such an update while we are migrating to the new message-sending logic,",
+              "as some price updates on pythnet may not be sent to other chains (because the message-sending",
+              "logic may not have triggered). We can solve this problem by making the message-sending mandatory",
+              "(which we can do once publishers have migrated over).",
+              "",
+              "Additionally, this field may be equal to publish_time if the message is sent on a slot where",
+              "where the aggregation was unsuccesful. This problem will go away once all publishers have",
+              "migrated over to a recent version of pyth-agent."
+            ],
+            "type": "i64"
+          },
+          {
+            "name": "ema_price",
+            "type": "i64"
+          },
+          {
+            "name": "ema_conf",
+            "type": "u64"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PriceUpdateV2",
+      "docs": [
+        "A price update account. This account is used by the Pyth Receiver program to store a verified price update from a Pyth price feed.",
+        "It contains:",
+        "- `write_authority`: The write authority for this account. This authority can close this account to reclaim rent or update the account to contain a different price update.",
+        "- `verification_level`: The [`VerificationLevel`] of this price update. This represents how many Wormhole guardian signatures have been verified for this price update.",
+        "- `price_message`: The actual price update.",
+        "- `posted_slot`: The slot at which this price update was posted."
+      ],
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "write_authority",
+            "type": "pubkey"
+          },
+          {
+            "name": "verification_level",
+            "type": {
+              "defined": {
+                "name": "VerificationLevel"
+              }
+            }
+          },
+          {
+            "name": "price_message",
+            "type": {
+              "defined": {
+                "name": "PriceFeedMessage"
+              }
+            }
+          },
+          {
+            "name": "posted_slot",
+            "type": "u64"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SolPaymentConfig",
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "orbis_per_sol_rate",
+            "type": "u64"
+          }
+        ]
+      }
+    },
+    {
       "name": "StreamingEscrow",
       "type": {
         "kind": "struct",
@@ -1828,6 +2953,88 @@
           {
             "name": "withdrawal_requested_at",
             "type": "i64"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TribePaymentMade",
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "payer",
+            "type": "pubkey"
+          },
+          {
+            "name": "payment_ref",
+            "type": {
+              "array": [
+                "u8",
+                32
+              ]
+            }
+          },
+          {
+            "name": "amount",
+            "type": "u64"
+          },
+          {
+            "name": "owner_token_account",
+            "type": "pubkey"
+          },
+          {
+            "name": "clone_token_account",
+            "type": "pubkey"
+          },
+          {
+            "name": "treasury_token_account",
+            "type": "pubkey"
+          },
+          {
+            "name": "owner_cut",
+            "type": "u64"
+          },
+          {
+            "name": "clone_cut",
+            "type": "u64"
+          },
+          {
+            "name": "treasury_cut",
+            "type": "u64"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VerificationLevel",
+      "docs": [
+        "Pyth price updates are bridged to all blockchains via Wormhole.",
+        "Using the price updates on another chain requires verifying the signatures of the Wormhole guardians.",
+        "The usual process is to check the signatures for two thirds of the total number of guardians, but this can be cumbersome on Solana because of the transaction size limits,",
+        "so we also allow for partial verification.",
+        "",
+        "This enum represents how much a price update has been verified:",
+        "- If `Full`, we have verified the signatures for two thirds of the current guardians.",
+        "- If `Partial`, only `num_signatures` guardian signatures have been checked.",
+        "",
+        "# Warning",
+        "Using partially verified price updates is dangerous, as it lowers the threshold of guardians that need to collude to produce a malicious price update."
+      ],
+      "type": {
+        "kind": "enum",
+        "variants": [
+          {
+            "name": "Partial",
+            "fields": [
+              {
+                "name": "num_signatures",
+                "type": "u8"
+              }
+            ]
+          },
+          {
+            "name": "Full"
           }
         ]
       }

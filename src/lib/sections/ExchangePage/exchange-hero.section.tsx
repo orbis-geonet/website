@@ -9,6 +9,7 @@ import {
   OrbisCoin,
   PhantomIcon,
   SolanaCoin,
+  SolflareIcon,
   TrustWalletIcon,
 } from "./icons";
 
@@ -67,6 +68,7 @@ export const WalletsRow = ({
           <MetaMaskIcon size={36} />
           <TrustWalletIcon size={36} />
           <PhantomIcon size={36} />
+          <SolflareIcon size={36} />
         </div>
       </div>
     );
@@ -81,6 +83,7 @@ export const WalletsRow = ({
         <MetaMaskIcon size={40} />
         <TrustWalletIcon size={40} />
         <PhantomIcon size={40} />
+        <SolflareIcon size={40} />
       </div>
     </div>
   );

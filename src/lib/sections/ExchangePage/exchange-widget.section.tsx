@@ -7,18 +7,20 @@ import {
     disconnectWallet,
     executeSwap,
     fetchBalances,
-    fetchBalancesByAddress,
+    fetchExchangeTreasuryState,
     ConnectedWallet,
+    ExchangeTreasuryState,
     WalletBalances,
     WalletType,
     SolanaNetwork,
 } from "./wallet-connector";
-import { getSolPriceUsd } from "./sol-price";
 import useLocale from "@/hooks/useLocale";
 
-const ORBIS_RATE_USD = parseFloat(process.env.NEXT_PUBLIC_ORBIS_RATE ?? "1");
+const ORBIS_RATE_USD = 1;
 
-const DEFAULT_NETWORK = (process.env.NEXT_PUBLIC_SOLANA_NETWORK ?? "devnet") as SolanaNetwork;
+const DEFAULT_NETWORK = (
+    process.env.NEXT_PUBLIC_EXCHANGE_NETWORK ?? process.env.NEXT_PUBLIC_SOLANA_NETWORK ?? "devnet"
+) as SolanaNetwork;
 
 interface ExchangeWidgetProps {
     network?: SolanaNetwork;
@@ -35,40 +37,32 @@ const ExchangeWidget = ({ network = DEFAULT_NETWORK }: ExchangeWidgetProps) => {
     const [walletLoading, setWalletLoading] = useState<WalletType | null>(null);
     const [walletError, setWalletError] = useState<string | null>(null);
     const [wallet, setWallet] = useState<ConnectedWallet | null>(null);
-    const [solPriceUsd, setSolPriceUsd] = useState<number | null>(null);
     const [balances, setBalances] = useState<WalletBalances | null>(null);
     const [balancesLoading, setBalancesLoading] = useState(false);
     const [txPending, setTxPending] = useState(false);
     const [txError, setTxError] = useState<string | null>(null);
     const [txSignature, setTxSignature] = useState<string | null>(null);
-    const [poolBalance, setPoolBalance] = useState<WalletBalances | null>(null);
+    const [poolBalance, setPoolBalance] = useState<ExchangeTreasuryState | null>(null);
     const [poolLoading, setPoolLoading] = useState(false);
 
     const buyActive = tab === "buy";
 
-    useEffect(() => {
-        getSolPriceUsd()
-            .then(setSolPriceUsd)
-            .catch(() => setSolPriceUsd(null));
-        const id = setInterval(() => {
-            getSolPriceUsd()
-                .then(setSolPriceUsd)
-                .catch(() => {});
-        }, 60_000);
-        return () => clearInterval(id);
-    }, []);
-
-    useEffect(() => {
-        const adminWallet = process.env.NEXT_PUBLIC_ADMIN_WALLET;
-        if (!adminWallet) return;
+    const loadTreasury = useCallback(async () => {
         setPoolLoading(true);
-        fetchBalancesByAddress(adminWallet, network)
+        fetchExchangeTreasuryState(network)
             .then(setPoolBalance)
             .catch(() => setPoolBalance(null))
             .finally(() => setPoolLoading(false));
     }, [network]);
 
-    const orbisPerSol = solPriceUsd !== null ? solPriceUsd / ORBIS_RATE_USD : null;
+    useEffect(() => {
+        loadTreasury();
+        const id = setInterval(loadTreasury, 60_000);
+        return () => clearInterval(id);
+    }, [loadTreasury]);
+
+    const orbisPerSol = poolBalance?.orbisPerSol ?? null;
+    const solPriceUsd = poolBalance?.solUsdPrice ?? null;
 
     const handleSendChange = useCallback(
         (value: string) => {
@@ -161,7 +155,7 @@ const ExchangeWidget = ({ network = DEFAULT_NETWORK }: ExchangeWidgetProps) => {
                 setWalletLoading(null);
             }
         },
-        [network, loadBalances],
+        [network, loadBalances, t.failedToConnect],
     );
 
     const handleDisconnect = useCallback(async () => {
@@ -198,12 +192,13 @@ const ExchangeWidget = ({ network = DEFAULT_NETWORK }: ExchangeWidgetProps) => {
             });
             setTxSignature(sig);
             loadBalances(wallet);
+            loadTreasury();
         } catch (err) {
             setTxError(err instanceof Error ? err.message : t.transactionFailed);
         } finally {
             setTxPending(false);
         }
-    }, [wallet, send, tab, network, loadBalances]);
+    }, [wallet, send, tab, network, loadBalances, loadTreasury, t.transactionFailed]);
 
     const shortAddress = wallet ? `${wallet.address.slice(0, 4)}...${wallet.address.slice(-4)}` : null;
 
@@ -235,6 +230,14 @@ const ExchangeWidget = ({ network = DEFAULT_NETWORK }: ExchangeWidgetProps) => {
         amount > 0 &&
         (buyActive ? amount > balances.sol : balances.orbis !== null && amount > balances.orbis);
 
+    const receiveAmount = parseFloat(receive) || 0;
+    const isInsufficientLiquidity =
+        poolBalance !== null &&
+        receiveAmount > 0 &&
+        (buyActive
+            ? poolBalance.orbis !== null && receiveAmount > poolBalance.orbis
+            : receiveAmount > poolBalance.sol);
+
     const exchangeButtonLabel = txPending
         ? t.waitingConfirmation
         : !wallet
@@ -243,11 +246,13 @@ const ExchangeWidget = ({ network = DEFAULT_NETWORK }: ExchangeWidgetProps) => {
             ? buyActive
                 ? t.insufficientSol
                 : t.insufficientOrbis
-            : buyActive
-              ? t.buyBtn
-              : t.sellBtn;
-
-    const adminWallet = process.env.NEXT_PUBLIC_ADMIN_WALLET;
+            : isInsufficientLiquidity
+              ? buyActive
+                  ? "Insufficient ORBIS treasury liquidity"
+                  : "Insufficient SOL treasury liquidity"
+              : buyActive
+                ? t.buyBtn
+                : t.sellBtn;
 
     return (
         <>
@@ -392,17 +397,16 @@ const ExchangeWidget = ({ network = DEFAULT_NETWORK }: ExchangeWidgetProps) => {
                     <button
                         type="button"
                         onClick={handleExchange}
-                        disabled={txPending || !!isInsufficientBalance}
+                        disabled={txPending || !!isInsufficientBalance || isInsufficientLiquidity}
                         className="mt-3 w-full rounded-xl py-6 text-lg font-semibold text-white transition bg-gradient-to-r from-[#6FECC2] via-[#79B3F0] to-[#BF5CE2] hover:brightness-[1.04] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/60 disabled:opacity-60 disabled:cursor-not-allowed disabled:brightness-100">
                         {exchangeButtonLabel}
                     </button>
 
-                    {adminWallet && (
-                        <div className="mt-3 pt-3 border-t border-white/[0.07] cursor-default select-none">
+                    <div className="mt-3 pt-3 border-t border-white/[0.07] cursor-default select-none">
                             <div className="flex items-center justify-between">
                                 <div className="flex items-center gap-2">
                                     <span className="h-1.5 w-1.5 rounded-full bg-[#6FECC2] shadow-[0_0_5px_2px_rgba(111,236,194,0.6)]" />
-                                    <span className="text-[10px] uppercase tracking-[0.18em] text-white">Pool Liquidity</span>
+                                    <span className="text-[10px] uppercase tracking-[0.18em] text-white">Treasury Reserves</span>
                                 </div>
                                 <div className="flex items-center gap-5">
                                     <span className="text-[12px] font-mono text-white">
@@ -419,8 +423,7 @@ const ExchangeWidget = ({ network = DEFAULT_NETWORK }: ExchangeWidgetProps) => {
                                     </span>
                                 </div>
                             </div>
-                        </div>
-                    )}
+                    </div>
                 </div>
             </div>
 

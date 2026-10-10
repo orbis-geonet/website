@@ -34,3 +34,22 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# editor & local agent config
+.vscode/
+.claude/
+.agents/
+
+/.github/workflows/cloud-run.yml
+.env
+.env.*
+!.env.example
+wallet.json
+*-keypair.json
+*-firebase-adminsdk-*.json
+secrets.json
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
